@@ -590,7 +590,8 @@ class TimeScamDetector:
 
         # ── Layer 5: Ensemble scoring ─────────────────────────
         ensemble_score = self._compute_ensemble_score(
-            rule_score, time_analysis, ling_analysis, url_analysis
+            rule_score, time_analysis, ling_analysis, url_analysis,
+            signals=rule_signals
         )
 
         # ── Layer 6: Classification ───────────────────────────
@@ -634,13 +635,14 @@ class TimeScamDetector:
         return result
 
     def _compute_ensemble_score(self, rule_score: float, time_analysis: Dict,
-                                 ling_analysis: Dict, url_analysis: Dict) -> float:
+                                 ling_analysis: Dict, url_analysis: Dict,
+                                 signals: Optional[List] = None) -> float:
         """Weighted ensemble of all detection layers."""
         weights = {
-            "rule":        0.40,
-            "time":        0.25,
-            "linguistic":  0.15,
-            "url":         0.20,
+            "rule":        0.50,
+            "time":        0.22,
+            "linguistic":  0.13,
+            "url":         0.15,
         }
 
         scores = {
@@ -652,9 +654,21 @@ class TimeScamDetector:
 
         ensemble = sum(scores[k] * weights[k] for k in weights)
 
-        # Boost for extreme signals
-        if scores["rule"] > 0.7 and scores["time"] > 0.5:
-            ensemble = min(ensemble * 1.2, 1.0)
+        # Boost 1: any rule hit combined with time pressure
+        if scores["rule"] > 0.0 and scores["time"] > 0.3:
+            ensemble = min(ensemble * 1.25, 1.0)
+
+        # Boost 2: single very high-severity signal (threat/fraud patterns)
+        if signals:
+            max_sev = max((s.severity for s in signals), default=0.0)
+            if max_sev >= 0.88:
+                ensemble = min(ensemble + 0.20, 1.0)
+            elif max_sev >= 0.80:
+                ensemble = min(ensemble + 0.12, 1.0)
+
+        # Boost 3: many rules matched (broad scam signal coverage)
+        if scores["rule"] >= 0.55:
+            ensemble = min(ensemble * 1.15, 1.0)
 
         return min(ensemble, 1.0)
 
