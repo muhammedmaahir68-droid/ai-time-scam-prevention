@@ -609,20 +609,20 @@ class TimeScamDetector:
         result = DetectionResult(
             content_hash=content_hash,
             timestamp=datetime.utcnow().isoformat() + "Z",
-            is_scam=(ensemble_score >= 0.45),
+            is_scam=bool(ensemble_score >= 0.45),
             risk_level=risk_level,
-            overall_score=round(ensemble_score, 4),
+            overall_score=float(round(ensemble_score, 4)),
             scam_types=scam_types,
-            signals=[asdict(s) for s in rule_signals],
+            signals=[{k: (float(v) if hasattr(v, 'item') else v) for k, v in asdict(s).items()} for s in rule_signals],
             recommendations=recommendations,
             details={
-                "rule_score":       round(rule_score, 4),
-                "time_analysis":    time_analysis,
-                "linguistic":       ling_analysis,
+                "rule_score":       float(round(rule_score, 4)),
+                "time_analysis":    {k: (float(v) if hasattr(v, 'item') else v) for k, v in time_analysis.items()},
+                "linguistic":       {k: (float(v) if hasattr(v, 'item') else v) for k, v in ling_analysis.items()},
                 "url_analysis":     url_analysis,
                 "metadata":         metadata or {}
             },
-            processing_time_ms=round(processing_ms, 2)
+            processing_time_ms=float(round(processing_ms, 2))
         )
 
         logger.info(
