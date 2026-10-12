@@ -34,11 +34,11 @@ RISK_COLORS = {
 }
 
 RISK_ICONS = {
-    "safe":     "✅",
-    "low":      "🟡",
-    "medium":   "🟠",
-    "high":     "🔴",
-    "critical": "💀",
+    "safe":     "[SAFE]",
+    "low":      "[LOW]",
+    "medium":   "[MED]",
+    "high":     "[HIGH]",
+    "critical": "[CRIT]",
 }
 
 
@@ -46,24 +46,24 @@ def print_result(result: dict):
     """Pretty-print a detection result."""
     risk  = result.get("risk_level", "unknown")
     color = RISK_COLORS.get(risk, "white")
-    icon  = RISK_ICONS.get(risk, "❓")
+    icon  = RISK_ICONS.get(risk, "[?]")
 
     # Header panel
     header = (
         f"{icon} Risk Level: [{color}]{risk.upper()}[/{color}]  |  "
         f"Score: [bold]{result['overall_score']:.3f}[/bold]  |  "
-        f"Is Scam: [bold]{'YES ⚠️' if result['is_scam'] else 'NO ✅'}[/bold]"
+        f"Is Scam: [bold]{'TRUE (High Threat)' if result['is_scam'] else 'FALSE (Clean)'}[/bold]"
     )
-    console.print(Panel(header, title="🛡️ Detection Result", border_style=color))
+    console.print(Panel(header, title="Threat Detection Report", border_style=color))
 
     # Scam types
     if result.get("scam_types"):
-        console.print(f"  [bold]Detected Scam Types:[/bold] {', '.join(result['scam_types'])}")
+        console.print(f"  [bold]Threat Classifications:[/bold] {', '.join(result['scam_types'])}")
 
     # Signals table
     signals = result.get("signals", [])
     if signals:
-        table = Table(title="⚡ Scam Signals", box=box.ROUNDED)
+        table = Table(title="Detected Threat Signals", box=box.ROUNDED)
         table.add_column("Type",         style="cyan")
         table.add_column("Severity",     style="red")
         table.add_column("Matched Text", style="yellow", no_wrap=False, max_width=60)
@@ -78,12 +78,12 @@ def print_result(result: dict):
     # Recommendations
     recs = result.get("recommendations", [])
     if recs:
-        console.print("\n  [bold]💡 Recommendations:[/bold]")
+        console.print("\n  [bold]Actionable Recommendations:[/bold]")
         for rec in recs:
-            console.print(f"    {rec}")
+            console.print(f"    - {rec}")
 
     # Processing time
-    console.print(f"\n  ⏱️  Processing time: {result.get('processing_time_ms', 0):.1f} ms\n")
+    console.print(f"\n  Latency: {result.get('processing_time_ms', 0):.1f} ms\n")
 
 
 def cmd_analyze(args):
@@ -91,8 +91,8 @@ def cmd_analyze(args):
     from src.core.detector import TimeScamDetector
 
     if args.interactive:
-        console.print("[bold cyan]🛡️ AI Time-Scam Prevention — Interactive Mode[/bold cyan]")
-        console.print("Type your message/email/text and press Enter (or 'quit' to exit):\n")
+        console.print("[bold cyan]ScamGuard AI Threat Engine — Interactive Console[/bold cyan]")
+        console.print("Type message/email/text content and press Enter ('quit' to exit):\n")
         detector = TimeScamDetector()
         while True:
             try:
@@ -141,7 +141,7 @@ def cmd_demo(args):
     ]
 
     detector = TimeScamDetector()
-    console.print("[bold cyan]🛡️ AI Time-Scam Prevention — DEMO[/bold cyan]\n")
+    console.print("[bold cyan]ScamGuard AI Engine — Demonstration Analysis[/bold cyan]\n")
 
     for name, text in samples:
         console.rule(f"[bold]{name}[/bold]")

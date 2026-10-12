@@ -1,63 +1,84 @@
 /**
- * ScamGuard AI — Dashboard JavaScript
- * Handles: tab navigation, analyze API calls, stats, charts, history
+ * ScamGuard AI — Interactive Glassmorphism Dashboard Engine
+ * Multi-layer telemetry, SVG gauge visualization, and real-time inference.
  */
 
 // ── Tab Navigation ──────────────────────────────────────────
-document.querySelectorAll(".nav-links li").forEach(li => {
-    li.addEventListener("click", () => {
-        document.querySelectorAll(".nav-links li").forEach(l => l.classList.remove("active"));
+document.querySelectorAll(".nav .nav-item").forEach(item => {
+    item.addEventListener("click", () => {
+        document.querySelectorAll(".nav .nav-item").forEach(n => n.classList.remove("active"));
         document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
-        li.classList.add("active");
-        const tabId = "tab-" + li.dataset.tab;
-        document.getElementById(tabId)?.classList.add("active");
-        if (li.dataset.tab === "dashboard") loadStats();
-        if (li.dataset.tab === "history")   loadHistory();
+
+        item.classList.add("active");
+        const tabId = "tab-" + item.dataset.tab;
+        const targetTab = document.getElementById(tabId);
+        if (targetTab) {
+            targetTab.classList.add("active");
+        }
+
+        if (item.dataset.tab === "dashboard") loadStats();
+        if (item.dataset.tab === "history")   loadHistory();
     });
 });
 
-// ── Example Scam Texts ──────────────────────────────────────
+// ── Example Texts (Emoji-Free Professional Scenarios) ────────
 const EXAMPLES = [
-    "🚨 URGENT! Your PayPal account has been compromised! Verify your identity in the next 2 HOURS or your account will be PERMANENTLY SUSPENDED! Click here NOW: http://paypal-verify.xyz.tk/login",
-    "GUARANTEED 500% returns on Bitcoin in just 48 hours! Our AI trading bot NEVER loses. Only 3 investment slots left! Invest $500 today and watch it become $3,000 by tomorrow! Act NOW before it's too late!",
-    "Mom this is urgent! I got arrested and I'm in jail right now. I need $800 in Google Play gift cards to pay for bail. Please don't tell Dad. Send the card codes to this number immediately!",
-    "⏰ COUNTDOWN ALERT: You have been selected as today's winner! Your $10,000 prize expires in exactly 47 minutes! Claim NOW before the timer runs out! This is your FINAL CHANCE!",
-    "IRS FINAL NOTICE: Warrant has been issued for your arrest. You owe $3,847 in unpaid taxes. Call 1-800-FAKE-IRS within 30 minutes to avoid immediate arrest. This is not a hoax.",
+    "URGENT: Your PayPal account verification is pending. Verify your identity within 2 HOURS or your account access will be terminated immediately. Access your secure link: http://paypal-verify.xyz.tk/login",
+    "GUARANTEED 500% returns on crypto asset portfolio within 48 hours. Zero risk automated algorithm. Only 3 investor allocations remaining. Deposit funds now before subscription closes.",
+    "Emergency notification: Your dependent has encountered an urgent legal incident overseas. Immediate bail deposit of 800 USD required via prepaid voucher. Do not contact family members directly.",
+    "LIMITED ALLOCATION ALERT: You were chosen for priority rewards. Claim window expires in exactly 47 minutes. Confirm payment authorization now before expiration.",
+    "FINAL LEGAL NOTICE: Formal warrant pending dispatch. Outstanding tax liabilities require immediate resolution. Contact enforcement desk within 30 minutes to avoid immediate action."
 ];
 let exampleIdx = 0;
 
 document.getElementById("exampleBtn")?.addEventListener("click", () => {
-    document.getElementById("contentInput").value = EXAMPLES[exampleIdx % EXAMPLES.length];
-    exampleIdx++;
-    updateCharCount();
+    const input = document.getElementById("contentInput");
+    if (input) {
+        input.value = EXAMPLES[exampleIdx % EXAMPLES.length];
+        exampleIdx++;
+        updateCharCount();
+        input.focus();
+    }
 });
 
 document.getElementById("clearBtn")?.addEventListener("click", () => {
-    document.getElementById("contentInput").value = "";
-    document.getElementById("resultCard").style.display = "none";
-    updateCharCount();
+    const input = document.getElementById("contentInput");
+    if (input) {
+        input.value = "";
+        updateCharCount();
+    }
+    const resultCard = document.getElementById("resultCard");
+    if (resultCard) {
+        resultCard.classList.add("hidden");
+    }
 });
 
-// ── Char Counter ────────────────────────────────────────────
+// ── Character Counter ───────────────────────────────────────
 const contentInput = document.getElementById("contentInput");
 contentInput?.addEventListener("input", updateCharCount);
 function updateCharCount() {
+    if (!contentInput) return;
     const len = contentInput.value.length;
-    document.getElementById("charCount").textContent = len.toLocaleString();
+    const counter = document.getElementById("charCount");
+    if (counter) {
+        counter.textContent = len.toLocaleString();
+    }
 }
 
-// ── Analyze ─────────────────────────────────────────────────
+// ── Analyze Action ──────────────────────────────────────────
 document.getElementById("analyzeBtn")?.addEventListener("click", async () => {
+    if (!contentInput) return;
     const content = contentInput.value.trim();
     if (content.length < 5) {
-        showToast("Please enter at least 5 characters.", "warn");
+        showToast("Minimum 5 characters required for analysis.", "warn");
         return;
     }
 
     setAnalyzeLoading(true);
 
     try {
-        const source = document.getElementById("sourceSelect").value;
+        const sourceSelect = document.getElementById("sourceSelect");
+        const source = sourceSelect ? sourceSelect.value : "unknown";
         const response = await fetch("/api/v1/analyze", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
@@ -66,233 +87,398 @@ document.getElementById("analyzeBtn")?.addEventListener("click", async () => {
 
         if (!response.ok) {
             const err = await response.json();
-            throw new Error(err.error || "Analysis failed");
+            throw new Error(err.error || "Analysis request failed");
         }
 
         const result = await response.json();
         displayResult(result);
+        showToast("Analysis complete: " + (result.risk_level || "unknown").toUpperCase(), 
+                  result.is_scam ? "error" : "success");
     } catch (err) {
-        showToast("Error: " + err.message, "error");
+        showToast(err.message, "error");
     } finally {
         setAnalyzeLoading(false);
     }
 });
 
 function setAnalyzeLoading(loading) {
-    document.getElementById("analyzeBtnText").classList.toggle("hidden", loading);
-    document.getElementById("analyzeSpinner").classList.toggle("hidden", !loading);
-    document.getElementById("analyzeBtn").disabled = loading;
+    const btn = document.getElementById("analyzeBtn");
+    const icon = document.getElementById("analyzeIcon");
+    const spinner = document.getElementById("analyzeSpinner");
+    const text = document.getElementById("analyzeBtnText");
+
+    if (btn) btn.disabled = loading;
+    if (icon) icon.classList.toggle("hidden", loading);
+    if (spinner) spinner.classList.toggle("hidden", !loading);
+    if (text) text.textContent = loading ? "Processing..." : "Analyze";
 }
 
+// ── Display Analysis Result ─────────────────────────────────
 function displayResult(result) {
     const card = document.getElementById("resultCard");
-    card.style.display = "block";
+    if (!card) return;
 
-    // Risk badge
-    const risk     = result.risk_level?.toUpperCase() || "SAFE";
+    card.classList.remove("hidden");
+
+    const risk = (result.risk_level || "safe").toUpperCase();
+    const score = Number(result.overall_score || 0);
+
+    // 1. Gauge Needle & Arc Calculation
+    // Total semicircle circumference for r=80 is ~251.2
+    const totalArc = 251.2;
+    const offset = totalArc - (totalArc * Math.min(Math.max(score, 0), 1));
+    const gaugeFill = document.getElementById("gaugeFill");
+    if (gaugeFill) {
+        gaugeFill.style.strokeDashoffset = offset.toFixed(1);
+    }
+
+    // Needle rotates from -90deg (0 score) to +90deg (1 score)
+    const angle = (score * 180) - 90;
+    const needle = document.getElementById("gaugeNeedle");
+    if (needle) {
+        needle.style.transform = `rotate(${angle.toFixed(1)}deg)`;
+    }
+
+    // Gauge Score text
+    const gaugeScore = document.getElementById("gaugeScore");
+    if (gaugeScore) {
+        gaugeScore.textContent = score.toFixed(3);
+    }
+
+    // 2. Risk Badge & Subtitle
     const riskBadge = document.getElementById("riskBadge");
-    riskBadge.textContent = `${riskIcon(risk)} ${risk}`;
-    riskBadge.className = `risk-badge risk-${risk}`;
+    if (riskBadge) {
+        riskBadge.textContent = risk;
+        riskBadge.className = `risk-badge ${risk}`;
+    }
 
-    // Score bar
-    const pct = Math.round(result.overall_score * 100);
-    const fill = document.getElementById("scoreFill");
-    fill.style.width = pct + "%";
-    fill.style.background = scoreColor(result.overall_score);
-    document.getElementById("scoreLabel").textContent = result.overall_score?.toFixed(3);
+    const riskLabel = document.getElementById("riskLabel");
+    if (riskLabel) {
+        const descriptions = {
+            SAFE: "No malicious time pressure or deceptive vectors detected.",
+            LOW: "Minimal urgency cues detected; standard operational context.",
+            MEDIUM: "Elevated urgency triggers detected. Verification advised.",
+            HIGH: "Severe time manipulation and fraudulent pressure patterns.",
+            CRITICAL: "Critical threat: Coercive manipulation and deceptive architecture."
+        };
+        riskLabel.textContent = descriptions[risk] || "Analysis evaluation finalized.";
+    }
 
-    // Processing time
-    document.getElementById("processingTime").textContent = `⏱ ${result.processing_time_ms?.toFixed(1)}ms`;
+    // 3. Processing Time
+    const timeBadge = document.getElementById("processingTime");
+    if (timeBadge) {
+        const ms = result.processing_time_ms ? Number(result.processing_time_ms).toFixed(1) : "0.0";
+        timeBadge.textContent = `${ms} ms`;
+    }
 
-    // Scam types
-    const typesBadges = document.getElementById("scamTypesBadges");
-    typesBadges.innerHTML = "";
-    (result.scam_types || []).forEach(t => {
-        const span = document.createElement("span");
-        span.className = "type-badge";
-        span.textContent = t.replace(/_/g, " ");
-        typesBadges.appendChild(span);
-    });
-    document.getElementById("scamTypesSection").style.display =
-        result.scam_types?.length ? "block" : "none";
+    // 4. Threat Classification Tags
+    const typesContainer = document.getElementById("scamTypesBadges");
+    const typesSection = document.getElementById("scamTypesSection");
+    if (typesContainer && typesSection) {
+        typesContainer.innerHTML = "";
+        const types = result.scam_types || [];
+        if (types.length > 0) {
+            typesSection.classList.remove("hidden");
+            types.forEach(typeKey => {
+                const tag = document.createElement("span");
+                tag.className = "type-tag";
+                tag.textContent = typeKey.replace(/_/g, " ").toUpperCase();
+                typesContainer.appendChild(tag);
+            });
+        } else {
+            typesSection.classList.add("hidden");
+        }
+    }
 
-    // Signals
+    // 5. Signals List with Visual Severity Meters
     const signalsList = document.getElementById("signalsList");
-    signalsList.innerHTML = "";
-    (result.signals || []).slice(0, 8).forEach(s => {
-        signalsList.innerHTML += `
-            <div class="signal-item">
-                <div class="signal-type">⚡ ${s.signal_type?.replace(/_/g, " ")}</div>
-                ${s.matched_text ? `<div class="signal-text">"${s.matched_text}"</div>` : ""}
-            </div>`;
-    });
-    document.getElementById("signalsSection").style.display =
-        result.signals?.length ? "block" : "none";
+    const signalsSection = document.getElementById("signalsSection");
+    if (signalsList && signalsSection) {
+        signalsList.innerHTML = "";
+        const signals = result.signals || [];
+        if (signals.length > 0) {
+            signalsSection.classList.remove("hidden");
+            signals.slice(0, 8).forEach(sig => {
+                const item = document.createElement("div");
+                item.className = "signal-item";
 
-    // Recommendations
+                const severityPct = Math.round((Number(sig.severity || 0.5)) * 100);
+                const typeText = (sig.signal_type || "Generic Signal").replace(/_/g, " ").toUpperCase();
+                const matchedText = sig.matched_text ? `"${sig.matched_text}"` : "";
+
+                item.innerHTML = `
+                    <div class="signal-top">
+                        <span class="signal-type">${typeText}</span>
+                        <span class="signal-sev">Severity: ${severityPct}%</span>
+                    </div>
+                    <div class="signal-bar">
+                        <div class="signal-bar-fill" style="width: ${severityPct}%;"></div>
+                    </div>
+                    ${matchedText ? `<div class="signal-text">${matchedText}</div>` : ""}
+                `;
+                signalsList.appendChild(item);
+            });
+        } else {
+            signalsSection.classList.add("hidden");
+        }
+    }
+
+    // 6. Actionable Recommendations
     const recsList = document.getElementById("recsList");
-    recsList.innerHTML = "";
-    (result.recommendations || []).forEach(r => {
-        const li = document.createElement("li");
-        li.textContent = r;
-        recsList.appendChild(li);
-    });
-    document.getElementById("recsSection").style.display =
-        result.recommendations?.length ? "block" : "none";
+    const recsSection = document.getElementById("recsSection");
+    if (recsList && recsSection) {
+        recsList.innerHTML = "";
+        const recs = result.recommendations || [];
+        if (recs.length > 0) {
+            recsSection.classList.remove("hidden");
+            recs.forEach(rec => {
+                const cleanText = rec.replace(/[\u{1F600}-\u{1F6FF}|[\u{2600}-\u{26FF}]/gu, "").trim();
+                const li = document.createElement("li");
+                li.textContent = cleanText || rec;
+                recsList.appendChild(li);
+            });
+        } else {
+            recsSection.classList.add("hidden");
+        }
+    }
 
-    // Scroll into view
     card.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
-function riskIcon(risk) {
-    return { SAFE: "✅", LOW: "🟡", MEDIUM: "🟠", HIGH: "🔴", CRITICAL: "💀" }[risk] || "❓";
-}
-function scoreColor(score) {
-    if (score < 0.2)  return "#2ea043";
-    if (score < 0.45) return "#d4a017";
-    if (score < 0.65) return "#e3a53d";
-    if (score < 0.82) return "#f85149";
-    return "#ff1c1c";
-}
-
-// ── Stats & Charts ───────────────────────────────────────────
-let riskChart, activityChart;
+// ── Dashboard Statistics & Charts ───────────────────────────
+let riskChartInstance = null;
+let activityChartInstance = null;
 
 async function loadStats() {
     try {
-        const r    = await fetch("/api/v1/stats");
-        const data = await r.json();
+        const response = await fetch("/api/v1/stats");
+        if (!response.ok) throw new Error("Failed to retrieve statistics");
+        const data = await response.json();
 
-        document.getElementById("statTotal").textContent = (data.total_analyzed || 0).toLocaleString();
-        document.getElementById("statScams").textContent = (data.scams_detected || 0).toLocaleString();
-        document.getElementById("statSafe").textContent  = (data.safe_content || 0).toLocaleString();
-        document.getElementById("statRate").textContent  = (data.detection_rate || 0) + "%";
+        const totalEl = document.getElementById("statTotal");
+        const scamsEl = document.getElementById("statScams");
+        const safeEl  = document.getElementById("statSafe");
+        const rateEl  = document.getElementById("statRate");
 
-        renderRiskChart(data.risk_breakdown || {});
-        renderActivityChart(data.scams_detected || 0, data.safe_content || 0);
+        if (totalEl) totalEl.textContent = (data.total_analyzed || 0).toLocaleString();
+        if (scamsEl) scamsEl.textContent = (data.scams_detected || 0).toLocaleString();
+        if (safeEl)  safeEl.textContent  = (data.safe_content || 0).toLocaleString();
+        if (rateEl)  rateEl.textContent  = (data.detection_rate || 0) + "%";
+
+        renderRiskDistribution(data.risk_breakdown || {});
+        renderActivityDistribution(data.scams_detected || 0, data.safe_content || 0);
     } catch (err) {
-        console.error("Stats error:", err);
+        showToast("Error loading stats: " + err.message, "error");
     }
 }
 
-function renderRiskChart(breakdown) {
-    const ctx = document.getElementById("riskChart")?.getContext("2d");
-    if (!ctx) return;
-    if (riskChart) riskChart.destroy();
+function renderRiskDistribution(breakdown) {
+    const canvas = document.getElementById("riskChart");
+    if (!canvas) return;
+    const ctx = canvas.getContext("2d");
 
-    const labels = Object.keys(breakdown);
-    const values = Object.values(breakdown);
-    const colors = { safe: "#2ea043", low: "#d4a017", medium: "#e3a53d", high: "#f85149", critical: "#ff1c1c" };
+    if (riskChartInstance) riskChartInstance.destroy();
 
-    riskChart = new Chart(ctx, {
+    const keys = ["safe", "low", "medium", "high", "critical"];
+    const labels = ["Safe", "Low", "Medium", "High", "Critical"];
+    const values = keys.map(k => breakdown[k] || 0);
+    const colors = [
+        "rgba(0, 230, 118, 0.8)",
+        "rgba(255, 193, 7, 0.8)",
+        "rgba(255, 109, 0, 0.8)",
+        "rgba(255, 23, 68, 0.8)",
+        "rgba(179, 0, 30, 0.9)"
+    ];
+
+    riskChartInstance = new Chart(ctx, {
         type: "doughnut",
         data: {
-            labels: labels.map(l => l.charAt(0).toUpperCase() + l.slice(1)),
-            datasets: [{ data: values, backgroundColor: labels.map(l => colors[l] || "#58a6ff"), borderWidth: 0 }]
-        },
-        options: {
-            plugins: { legend: { labels: { color: "#c9d1d9" } } },
-            responsive: true
-        }
-    });
-}
-
-function renderActivityChart(scams, safe) {
-    const ctx = document.getElementById("activityChart")?.getContext("2d");
-    if (!ctx) return;
-    if (activityChart) activityChart.destroy();
-
-    activityChart = new Chart(ctx, {
-        type: "bar",
-        data: {
-            labels: ["Scams Detected", "Safe Content"],
+            labels: labels,
             datasets: [{
-                data: [scams, safe],
-                backgroundColor: ["rgba(248,81,73,0.7)", "rgba(46,160,67,0.7)"],
-                borderColor: ["#f85149", "#2ea043"],
-                borderWidth: 1, borderRadius: 6
+                data: values,
+                backgroundColor: colors,
+                borderColor: "rgba(255, 255, 255, 0.08)",
+                borderWidth: 2,
+                hoverOffset: 6
             }]
         },
         options: {
-            plugins: { legend: { display: false } },
-            scales: {
-                x: { ticks: { color: "#8b949e" }, grid: { color: "#21262d" } },
-                y: { ticks: { color: "#8b949e" }, grid: { color: "#21262d" } }
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: "bottom",
+                    labels: {
+                        color: "#8892aa",
+                        font: { family: "system-ui", size: 12 },
+                        padding: 14,
+                        boxWidth: 12
+                    }
+                }
             },
-            responsive: true
+            cutout: "70%"
         }
     });
 }
 
-document.getElementById("refreshStats")?.addEventListener("click", loadStats);
+function renderActivityDistribution(scams, safe) {
+    const canvas = document.getElementById("activityChart");
+    if (!canvas) return;
+    const ctx = canvas.getContext("2d");
 
-// ── History ──────────────────────────────────────────────────
+    if (activityChartInstance) activityChartInstance.destroy();
+
+    activityChartInstance = new Chart(ctx, {
+        type: "bar",
+        data: {
+            labels: ["Threats Detected", "Clean Traffic"],
+            datasets: [{
+                data: [scams, safe],
+                backgroundColor: [
+                    "rgba(255, 23, 68, 0.65)",
+                    "rgba(0, 230, 118, 0.65)"
+                ],
+                borderColor: [
+                    "#ff1744",
+                    "#00e676"
+                ],
+                borderWidth: 1,
+                borderRadius: 8
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false }
+            },
+            scales: {
+                x: {
+                    ticks: { color: "#8892aa" },
+                    grid: { color: "rgba(255, 255, 255, 0.04)" }
+                },
+                y: {
+                    ticks: { color: "#8892aa" },
+                    grid: { color: "rgba(255, 255, 255, 0.04)" },
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+}
+
+document.getElementById("refreshStats")?.addEventListener("click", () => {
+    loadStats();
+    showToast("Telemetry metrics refreshed", "info");
+});
+
+// ── Detection History Log ───────────────────────────────────
 async function loadHistory() {
     const wrap = document.getElementById("historyTable");
-    wrap.innerHTML = "<p class='loading-msg'>Loading...</p>";
+    if (!wrap) return;
+
+    wrap.innerHTML = `
+        <div class="loading-state">
+            <div class="loading-spinner"></div>
+            <span>Synchronizing history...</span>
+        </div>`;
 
     try {
-        const r    = await fetch("/api/v1/detections/recent?limit=50");
-        const data = await r.json();
-        const dets = data.detections || [];
+        const response = await fetch("/api/v1/detections/recent?limit=50");
+        if (!response.ok) throw new Error("Failed to load logs");
+        const data = await response.json();
+        const detections = data.detections || [];
 
-        if (!dets.length) {
-            wrap.innerHTML = "<p class='loading-msg'>No detections yet. Run some analyses first!</p>";
+        if (detections.length === 0) {
+            wrap.innerHTML = `
+                <div class="loading-state">
+                    <span>No telemetry records logged yet.</span>
+                </div>`;
             return;
         }
 
-        let html = `<table>
-            <thead><tr>
-                <th>#</th><th>Risk</th><th>Score</th><th>Source</th>
-                <th>Scam Types</th><th>Timestamp</th>
-            </tr></thead><tbody>`;
+        let html = `
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hash</th>
+                        <th>Classification</th>
+                        <th>Threat Score</th>
+                        <th>Source</th>
+                        <th>Threat Vectors</th>
+                        <th>Timestamp</th>
+                    </tr>
+                </thead>
+                <tbody>`;
 
-        dets.forEach(d => {
-            const risk = d.risk_level?.toUpperCase() || "SAFE";
-            html += `<tr>
-                <td style="color:#8b949e;font-size:11px;">${d.content_hash}</td>
-                <td><span class="risk-badge risk-${risk}" style="padding:2px 8px;font-size:11px;">${riskIcon(risk)} ${risk}</span></td>
-                <td style="font-family:monospace;">${(d.overall_score||0).toFixed(3)}</td>
-                <td>${d.source || "—"}</td>
-                <td style="font-size:11px;color:#58a6ff;">${(d.scam_types||[]).join(", ") || "—"}</td>
-                <td style="color:#8b949e;font-size:11px;">${new Date(d.timestamp).toLocaleString()}</td>
-            </tr>`;
+        detections.forEach(item => {
+            const risk = (item.risk_level || "SAFE").toUpperCase();
+            const score = Number(item.overall_score || 0).toFixed(3);
+            const vectors = (item.scam_types || []).join(", ").replace(/_/g, " ") || "Standard";
+            const timeFormatted = item.timestamp ? new Date(item.timestamp).toLocaleString() : "Unknown";
+
+            html += `
+                <tr>
+                    <td style="font-family: monospace; font-size: 11px; opacity: 0.8;">${item.content_hash || "—"}</td>
+                    <td><span class="tbl-badge ${risk}">${risk}</span></td>
+                    <td style="font-variant-numeric: tabular-nums; font-weight: 600;">${score}</td>
+                    <td>${item.source || "Unknown"}</td>
+                    <td style="font-size: 12px; color: var(--blue);">${vectors}</td>
+                    <td style="font-size: 11px; opacity: 0.7;">${timeFormatted}</td>
+                </tr>`;
         });
 
-        html += "</tbody></table>";
+        html += `</tbody></table>`;
         wrap.innerHTML = html;
     } catch (err) {
-        wrap.innerHTML = `<p class='loading-msg'>Error loading history: ${err.message}</p>`;
+        wrap.innerHTML = `
+            <div class="loading-state">
+                <span>Error retrieving logs: ${err.message}</span>
+            </div>`;
     }
 }
 
-document.getElementById("refreshHistory")?.addEventListener("click", loadHistory);
+document.getElementById("refreshHistory")?.addEventListener("click", () => {
+    loadHistory();
+    showToast("History synchronized", "info");
+});
 
-// ── Toast Notifications ──────────────────────────────────────
+// ── Toast Notification System ───────────────────────────────
 function showToast(message, type = "info") {
+    const container = document.getElementById("toastContainer");
+    if (!container) return;
+
     const toast = document.createElement("div");
-    toast.style.cssText = `
-        position:fixed;bottom:24px;right:24px;z-index:9999;
-        padding:12px 20px;border-radius:8px;font-size:14px;
-        background:${type === "error" ? "#f85149" : type === "warn" ? "#e3a53d" : "#2ea043"};
-        color:white;font-weight:600;box-shadow:0 4px 20px rgba(0,0,0,0.4);
-        animation:fadeIn 0.3s ease;
-    `;
+    toast.className = `toast ${type}`;
     toast.textContent = message;
-    document.body.appendChild(toast);
-    setTimeout(() => toast.remove(), 3500);
+
+    container.appendChild(toast);
+
+    setTimeout(() => {
+        toast.classList.add("fadeout");
+        setTimeout(() => toast.remove(), 350);
+    }, 3500);
 }
 
-// ── Health Check on Load ─────────────────────────────────────
-(async () => {
+// ── Health Check Routine ────────────────────────────────────
+(async function initStatus() {
+    const dot = document.querySelector("#serverStatus .status-dot");
+    const text = document.querySelector("#serverStatus .status-text");
+
     try {
-        const r    = await fetch("/api/v1/health");
-        const data = await r.json();
-        const dot  = document.getElementById("serverStatus");
-        dot.textContent  = "● " + (data.status === "healthy" ? "Online" : "Degraded");
-        dot.style.color  = data.status === "healthy" ? "#2ea043" : "#f85149";
+        const response = await fetch("/api/v1/health");
+        const data = await response.json();
+        if (data.status === "healthy") {
+            if (dot) {
+                dot.className = "status-dot online";
+            }
+            if (text) text.textContent = "Engine Active";
+        } else {
+            if (dot) dot.className = "status-dot offline";
+            if (text) text.textContent = "Degraded";
+        }
     } catch {
-        document.getElementById("serverStatus").textContent = "● Offline";
-        document.getElementById("serverStatus").style.color = "#f85149";
+        if (dot) dot.className = "status-dot offline";
+        if (text) text.textContent = "Offline";
     }
 })();

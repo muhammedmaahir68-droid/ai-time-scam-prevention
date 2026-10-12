@@ -489,37 +489,37 @@ class RecommendationEngine:
 
         # Universal recommendations
         if level in ("HIGH", "CRITICAL"):
-            recs.append("⛔ DO NOT respond, click any links, or provide any personal information.")
-            recs.append("🔒 Block the sender immediately and report to your email/platform provider.")
-            recs.append("📞 If you've already responded, contact your bank or relevant institution immediately.")
+            recs.append("DO NOT respond, click any links, or provide any personal information.")
+            recs.append("Block the sender immediately and report to your email or platform provider.")
+            recs.append("If you have already responded, contact your financial institution or relevant service desk immediately.")
 
         if level == "MEDIUM":
-            recs.append("⚠️ Be cautious — verify the sender's identity through official channels before acting.")
-            recs.append("🔍 Do not click links; instead, navigate directly to the official website.")
+            recs.append("Exercise caution: Verify the sender's identity through official independent channels before acting.")
+            recs.append("Avoid clicking direct links; navigate manually to the legitimate domain.")
 
         # Scam-type-specific
         for stype in scam_types:
             if stype == ScamType.PHISHING_TIME_PRESSURE.value:
-                recs.append("🎣 Phishing attempt: Check the sender's email address carefully for subtle misspellings.")
-                recs.append("🌐 Visit the company's official website by typing it manually in your browser.")
+                recs.append("Phishing risk detected: Inspect sender headers carefully for subtle domain spoofing.")
+                recs.append("Navigate to the service provider directly via manual browser URL entry.")
 
             elif stype == ScamType.FINANCIAL_FRAUD.value:
-                recs.append("💰 No legitimate investment guarantees returns — this is a major red flag.")
-                recs.append("📋 Report to the SEC (sec.gov/tcr) or FTC (reportfraud.ftc.gov).")
+                recs.append("Guaranteed financial return claims represent deceptive investment fraud.")
+                recs.append("Report fraudulent solicitations to regulatory authorities (SEC / FTC / IC3).")
 
             elif stype == ScamType.CRYPTO_SCAM.value:
-                recs.append("₿ Crypto transactions are irreversible — never send crypto to strangers.")
-                recs.append("📋 Report to the FTC at reportfraud.ftc.gov and your crypto exchange.")
+                recs.append("Cryptocurrency transfers are immutable and non-recoverable. Never send funds to unverified parties.")
+                recs.append("Report fraud to the appropriate exchange and financial consumer protection agency.")
 
             elif stype in (ScamType.FAKE_EMERGENCY.value, ScamType.SOCIAL_ENGINEERING.value):
-                recs.append("📱 Verify any 'emergency' by calling the person directly on a known number.")
-                recs.append("👨‍👩‍👧 Alert family members about this scam attempt.")
+                recs.append("Verify any reported crisis by contacting the individual directly via an established, trusted phone number.")
+                recs.append("Confirm details with trusted contacts before making emergency financial transfers.")
 
             elif stype == ScamType.URGENCY_MANIPULATION.value:
-                recs.append("⏰ Artificial urgency is a classic scam tactic — legitimate offers don't expire in minutes.")
+                recs.append("Artificial urgency is an exploitation mechanism. Legitimate organizations grant appropriate decision windows.")
 
         # Add general safety tip
-        recs.append("📚 Learn more: consumer.ftc.gov/scams or ic3.gov for cyber fraud reporting.")
+        recs.append("Cyber fraud reporting resources available via IC3.gov and FTC ReportFraud.")
 
         return list(dict.fromkeys(recs))  # De-duplicate, preserve order
 

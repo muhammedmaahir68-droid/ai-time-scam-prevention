@@ -3,221 +3,425 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🛡️ AI Time-Scam Prevention System</title>
+    <title>ScamGuard AI — Time-Scam Prevention System</title>
     <link rel="stylesheet" href="/static/css/dashboard.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 </head>
 <body>
-    <!-- ── Sidebar Nav ───────────────────────────────────── -->
-    <nav class="sidebar">
-        <div class="logo">
-            <span class="logo-icon">🛡️</span>
-            <span class="logo-text">ScamGuard AI</span>
-        </div>
-        <ul class="nav-links">
-            <li class="active" data-tab="analyze"><span>🔍</span> Analyze</li>
-            <li data-tab="dashboard"><span>📊</span> Dashboard</li>
-            <li data-tab="history"><span>📋</span> History</li>
-            <li data-tab="about"><span>ℹ️</span> About</li>
-        </ul>
-        <div class="sidebar-footer">
-            <div class="status-dot" id="serverStatus">● Online</div>
-        </div>
-    </nav>
 
-    <!-- ── Main Content ──────────────────────────────────── -->
-    <main class="main-content">
+    <!-- Animated background mesh -->
+    <div class="bg-mesh">
+        <div class="mesh-orb orb-1"></div>
+        <div class="mesh-orb orb-2"></div>
+        <div class="mesh-orb orb-3"></div>
+    </div>
 
-        <!-- ── Analyze Tab ───────────────────────────────── -->
-        <section id="tab-analyze" class="tab active">
-            <div class="page-header">
-                <h1>🔍 Scam Analyzer</h1>
-                <p>Paste any text, email, or message to check for time-pressure scam indicators</p>
+    <div class="app-shell">
+
+        <!-- ── Sidebar ─────────────────────────────────────── -->
+        <aside class="sidebar glass">
+            <div class="brand">
+                <div class="brand-icon">
+                    <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 2L4 8v8c0 6.627 5.148 12.513 12 13.9C22.852 28.513 28 22.627 28 16V8L16 2z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                        <path d="M11 16l3.5 3.5L21 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="brand-text">
+                    <span class="brand-name">ScamGuard</span>
+                    <span class="brand-sub">AI Protection</span>
+                </div>
             </div>
 
-            <div class="analyze-grid">
-                <!-- Input Panel -->
-                <div class="card input-card">
-                    <div class="card-header">
-                        <h3>📝 Input</h3>
-                        <select id="sourceSelect">
-                            <option value="unknown">Source: Unknown</option>
-                            <option value="email">📧 Email</option>
-                            <option value="sms">📱 SMS</option>
-                            <option value="chat">💬 Chat</option>
-                            <option value="web">🌐 Web</option>
-                            <option value="phone">📞 Phone</option>
-                        </select>
-                    </div>
-                    <textarea id="contentInput" placeholder="Paste email, text, or message here...
+            <nav class="nav">
+                <a class="nav-item active" data-tab="analyze">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                    </svg>
+                    <span>Analyze</span>
+                </a>
+                <a class="nav-item" data-tab="dashboard">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/>
+                        <rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>
+                    </svg>
+                    <span>Dashboard</span>
+                </a>
+                <a class="nav-item" data-tab="history">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="9"/>
+                    </svg>
+                    <span>History</span>
+                </a>
+                <a class="nav-item" data-tab="about">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <circle cx="12" cy="12" r="9"/><path d="M12 17v-5"/><circle cx="12" cy="8" r=".5" fill="currentColor"/>
+                    </svg>
+                    <span>About</span>
+                </a>
+            </nav>
 
-Example: 'ACT NOW! Your account expires in 2 hours! Click here immediately or you will lose access forever!'"
-                              rows="10"></textarea>
-                    <div class="input-actions">
-                        <button class="btn btn-secondary" id="clearBtn">🗑️ Clear</button>
-                        <button class="btn btn-secondary" id="exampleBtn">💡 Load Example</button>
-                        <button class="btn btn-primary" id="analyzeBtn">
-                            <span id="analyzeBtnText">🔍 Analyze</span>
-                            <span id="analyzeSpinner" class="spinner hidden"></span>
-                        </button>
+            <div class="sidebar-footer">
+                <div class="status-pill" id="serverStatus">
+                    <span class="status-dot"></span>
+                    <span class="status-text">Connecting...</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- ── Main Content ────────────────────────────────── -->
+        <main class="main">
+
+            <!-- ── Analyze Tab ─────────────────────────────── -->
+            <section id="tab-analyze" class="tab active">
+                <header class="page-header">
+                    <div>
+                        <h1 class="page-title">Threat Analyzer</h1>
+                        <p class="page-sub">Paste any message, email, or URL to scan for time-based scam indicators</p>
                     </div>
-                    <div class="char-count"><span id="charCount">0</span> / 50,000 characters</div>
+                </header>
+
+                <div class="analyze-grid">
+                    <!-- Input Card -->
+                    <div class="card glass input-card">
+                        <div class="card-header">
+                            <h3 class="card-title">Input Content</h3>
+                            <select id="sourceSelect" class="glass-select">
+                                <option value="unknown">Source: Unknown</option>
+                                <option value="email">Email</option>
+                                <option value="sms">SMS</option>
+                                <option value="chat">Chat</option>
+                                <option value="web">Web</option>
+                                <option value="phone">Phone</option>
+                                <option value="social_media">Social Media</option>
+                            </select>
+                        </div>
+                        <div class="textarea-wrap">
+                            <textarea id="contentInput"
+                                placeholder="Paste suspicious content here — email body, chat message, SMS, or URL..."></textarea>
+                            <div class="textarea-glow"></div>
+                        </div>
+                        <div class="input-footer">
+                            <span class="char-count"><span id="charCount">0</span> / 50,000</span>
+                            <div class="btn-group">
+                                <button class="btn btn-ghost" id="clearBtn">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                        <path d="M3 6h18M8 6V4h8v2M19 6l-1 14H6L5 6"/>
+                                    </svg>
+                                    Clear
+                                </button>
+                                <button class="btn btn-ghost" id="exampleBtn">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/>
+                                        <polyline points="13,2 13,9 20,9"/>
+                                    </svg>
+                                    Example
+                                </button>
+                                <button class="btn btn-primary" id="analyzeBtn">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" id="analyzeIcon">
+                                        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                                    </svg>
+                                    <span class="spinner hidden" id="analyzeSpinner"></span>
+                                    <span id="analyzeBtnText">Analyze</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Result Card -->
+                    <div class="card glass result-card hidden" id="resultCard">
+                        <div class="card-header">
+                            <h3 class="card-title">Detection Result</h3>
+                            <span class="badge-time" id="processingTime"></span>
+                        </div>
+
+                        <!-- Risk Gauge -->
+                        <div class="risk-section">
+                            <div class="risk-gauge">
+                                <svg class="gauge-svg" viewBox="0 0 200 110">
+                                    <defs>
+                                        <linearGradient id="gaugeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                            <stop offset="0%"   stop-color="#00e676"/>
+                                            <stop offset="40%"  stop-color="#ffeb3b"/>
+                                            <stop offset="70%"  stop-color="#ff9800"/>
+                                            <stop offset="100%" stop-color="#f44336"/>
+                                        </linearGradient>
+                                    </defs>
+                                    <!-- Track -->
+                                    <path d="M 20 100 A 80 80 0 0 1 180 100"
+                                          fill="none" stroke="rgba(255,255,255,0.08)"
+                                          stroke-width="14" stroke-linecap="round"/>
+                                    <!-- Fill -->
+                                    <path id="gaugeFill"
+                                          d="M 20 100 A 80 80 0 0 1 180 100"
+                                          fill="none" stroke="url(#gaugeGrad)"
+                                          stroke-width="14" stroke-linecap="round"
+                                          stroke-dasharray="251.2" stroke-dashoffset="251.2"
+                                          style="transition: stroke-dashoffset 1s cubic-bezier(.4,0,.2,1)"/>
+                                    <!-- Needle -->
+                                    <line id="gaugeNeedle" x1="100" y1="100" x2="100" y2="30"
+                                          stroke="white" stroke-width="2.5" stroke-linecap="round"
+                                          style="transform-origin: 100px 100px; transition: transform 1s cubic-bezier(.4,0,.2,1)"/>
+                                    <circle cx="100" cy="100" r="5" fill="white" opacity="0.9"/>
+                                </svg>
+                                <div class="gauge-center">
+                                    <span class="gauge-score" id="gaugeScore">0.000</span>
+                                    <span class="gauge-label">Threat Score</span>
+                                </div>
+                            </div>
+                            <div class="risk-badge-wrap">
+                                <div class="risk-badge" id="riskBadge">SAFE</div>
+                                <div class="risk-label" id="riskLabel">No threats detected</div>
+                            </div>
+                        </div>
+
+                        <!-- Scam Types -->
+                        <div class="detail-section" id="scamTypesSection">
+                            <div class="section-label">Threat Classification</div>
+                            <div class="tag-row" id="scamTypesBadges"></div>
+                        </div>
+
+                        <!-- Signal Bars -->
+                        <div class="detail-section" id="signalsSection">
+                            <div class="section-label">Detected Signals</div>
+                            <div id="signalsList" class="signals-list"></div>
+                        </div>
+
+                        <!-- Recommendations -->
+                        <div class="detail-section" id="recsSection">
+                            <div class="section-label">Recommended Actions</div>
+                            <ul id="recsList" class="recs-list"></ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ── Dashboard Tab ───────────────────────────── -->
+            <section id="tab-dashboard" class="tab">
+                <header class="page-header">
+                    <div>
+                        <h1 class="page-title">System Dashboard</h1>
+                        <p class="page-sub">Real-time analytics and detection statistics</p>
+                    </div>
+                    <button class="btn btn-ghost" id="refreshStats">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <polyline points="23,4 23,10 17,10"/>
+                            <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/>
+                        </svg>
+                        Refresh
+                    </button>
+                </header>
+
+                <div class="stats-grid">
+                    <div class="stat-card glass">
+                        <div class="stat-icon icon-blue">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                            </svg>
+                        </div>
+                        <div class="stat-body">
+                            <div class="stat-value" id="statTotal">—</div>
+                            <div class="stat-label">Total Analyzed</div>
+                        </div>
+                        <div class="stat-glow glow-blue"></div>
+                    </div>
+                    <div class="stat-card glass">
+                        <div class="stat-icon icon-red">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+                                <line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>
+                            </svg>
+                        </div>
+                        <div class="stat-body">
+                            <div class="stat-value" id="statScams">—</div>
+                            <div class="stat-label">Scams Detected</div>
+                        </div>
+                        <div class="stat-glow glow-red"></div>
+                    </div>
+                    <div class="stat-card glass">
+                        <div class="stat-icon icon-green">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22,4 12,14.01 9,11.01"/>
+                            </svg>
+                        </div>
+                        <div class="stat-body">
+                            <div class="stat-value" id="statSafe">—</div>
+                            <div class="stat-label">Safe Content</div>
+                        </div>
+                        <div class="stat-glow glow-green"></div>
+                    </div>
+                    <div class="stat-card glass">
+                        <div class="stat-icon icon-amber">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                <line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/>
+                                <line x1="6" y1="20" x2="6" y2="14"/>
+                            </svg>
+                        </div>
+                        <div class="stat-body">
+                            <div class="stat-value" id="statRate">—</div>
+                            <div class="stat-label">Detection Rate</div>
+                        </div>
+                        <div class="stat-glow glow-amber"></div>
+                    </div>
                 </div>
 
-                <!-- Result Panel -->
-                <div class="card result-card" id="resultCard" style="display:none;">
-                    <div class="card-header">
-                        <h3>🎯 Result</h3>
-                        <span id="processingTime" class="badge"></span>
+                <div class="charts-grid">
+                    <div class="card glass">
+                        <div class="card-header"><h3 class="card-title">Risk Distribution</h3></div>
+                        <canvas id="riskChart" height="240"></canvas>
                     </div>
+                    <div class="card glass">
+                        <div class="card-header"><h3 class="card-title">Detection Breakdown</h3></div>
+                        <canvas id="activityChart" height="240"></canvas>
+                    </div>
+                </div>
+            </section>
 
-                    <!-- Risk Meter -->
-                    <div class="risk-section">
-                        <div class="risk-badge" id="riskBadge">SAFE</div>
-                        <div class="score-bar-wrap">
-                            <div class="score-bar">
-                                <div class="score-fill" id="scoreFill"></div>
+            <!-- ── History Tab ─────────────────────────────── -->
+            <section id="tab-history" class="tab">
+                <header class="page-header">
+                    <div>
+                        <h1 class="page-title">Detection History</h1>
+                        <p class="page-sub">Recent analysis records</p>
+                    </div>
+                    <button class="btn btn-ghost" id="refreshHistory">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <polyline points="23,4 23,10 17,10"/>
+                            <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/>
+                        </svg>
+                        Refresh
+                    </button>
+                </header>
+                <div class="card glass">
+                    <div id="historyTable" class="history-wrap">
+                        <div class="loading-state">
+                            <div class="loading-spinner"></div>
+                            <span>Loading history...</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ── About Tab ───────────────────────────────── -->
+            <section id="tab-about" class="tab">
+                <header class="page-header">
+                    <div>
+                        <h1 class="page-title">About ScamGuard AI</h1>
+                        <p class="page-sub">System architecture and capabilities</p>
+                    </div>
+                </header>
+
+                <div class="about-grid">
+                    <!-- Pipeline -->
+                    <div class="card glass about-pipeline">
+                        <div class="card-header"><h3 class="card-title">AI Detection Pipeline</h3></div>
+                        <div class="pipeline">
+                            <div class="pipe-node">
+                                <div class="pipe-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                        <polyline points="14,2 14,8 20,8"/>
+                                    </svg>
+                                </div>
+                                <span>Text Input</span>
                             </div>
-                            <span class="score-label" id="scoreLabel">0.000</span>
+                            <div class="pipe-arrow"></div>
+                            <div class="pipe-node">
+                                <div class="pipe-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                        <polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/>
+                                    </svg>
+                                </div>
+                                <span>Rule Engine</span>
+                            </div>
+                            <div class="pipe-arrow"></div>
+                            <div class="pipe-node">
+                                <div class="pipe-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                        <circle cx="12" cy="12" r="9"/><polyline points="12,6 12,12 16,14"/>
+                                    </svg>
+                                </div>
+                                <span>Time Pressure</span>
+                            </div>
+                            <div class="pipe-arrow"></div>
+                            <div class="pipe-node">
+                                <div class="pipe-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                                    </svg>
+                                </div>
+                                <span>Linguistics</span>
+                            </div>
+                            <div class="pipe-arrow"></div>
+                            <div class="pipe-node">
+                                <div class="pipe-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                                    </svg>
+                                </div>
+                                <span>URL Analysis</span>
+                            </div>
+                            <div class="pipe-arrow"></div>
+                            <div class="pipe-node pipe-node-final">
+                                <div class="pipe-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                    </svg>
+                                </div>
+                                <span>Ensemble Score</span>
+                            </div>
                         </div>
                     </div>
 
                     <!-- Scam Types -->
-                    <div id="scamTypesSection" class="detail-section">
-                        <h4>⚠️ Scam Types Detected</h4>
-                        <div id="scamTypesBadges" class="badge-row"></div>
+                    <div class="card glass">
+                        <div class="card-header"><h3 class="card-title">Threat Categories</h3></div>
+                        <ul class="feature-list">
+                            <li><div class="feat-dot dot-red"></div>Urgency Manipulation &amp; Fake Countdowns</li>
+                            <li><div class="feat-dot dot-orange"></div>Phishing with Time Pressure</li>
+                            <li><div class="feat-dot dot-amber"></div>Financial Fraud &amp; Crypto Scams</li>
+                            <li><div class="feat-dot dot-purple"></div>Fake Emergencies &amp; Social Engineering</li>
+                            <li><div class="feat-dot dot-blue"></div>Email Impersonation Attacks</li>
+                            <li><div class="feat-dot dot-cyan"></div>Malicious URL Detection</li>
+                            <li><div class="feat-dot dot-green"></div>Limited-Offer Fraud</li>
+                        </ul>
                     </div>
 
-                    <!-- Signals -->
-                    <div id="signalsSection" class="detail-section">
-                        <h4>⚡ Signals Found</h4>
-                        <div id="signalsList" class="signals-list"></div>
+                    <!-- Protection -->
+                    <div class="card glass">
+                        <div class="card-header"><h3 class="card-title">Automated Protection</h3></div>
+                        <ul class="feature-list">
+                            <li><div class="feat-dot dot-red"></div>Automatic Sender / Domain Blocking</li>
+                            <li><div class="feat-dot dot-orange"></div>Real-time Alerts (Slack / Discord)</li>
+                            <li><div class="feat-dot dot-amber"></div>Content Quarantine Zone</li>
+                            <li><div class="feat-dot dot-purple"></div>Structured Incident Report Generation</li>
+                            <li><div class="feat-dot dot-blue"></div>Detection History &amp; Analytics</li>
+                            <li><div class="feat-dot dot-cyan"></div>REST API for System Integration</li>
+                        </ul>
                     </div>
 
-                    <!-- Recommendations -->
-                    <div id="recsSection" class="detail-section">
-                        <h4>💡 Recommendations</h4>
-                        <ul id="recsList" class="recs-list"></ul>
+                    <!-- API -->
+                    <div class="card glass">
+                        <div class="card-header"><h3 class="card-title">API Endpoints</h3></div>
+                        <ul class="api-list">
+                            <li><span class="method post">POST</span><code>/api/v1/analyze</code></li>
+                            <li><span class="method post">POST</span><code>/api/v1/analyze/email</code></li>
+                            <li><span class="method post">POST</span><code>/api/v1/analyze/url</code></li>
+                            <li><span class="method post">POST</span><code>/api/v1/train</code></li>
+                            <li><span class="method get">GET</span><code>/api/v1/stats</code></li>
+                            <li><span class="method get">GET</span><code>/api/v1/health</code></li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- ── Dashboard Tab ─────────────────────────────── -->
-        <section id="tab-dashboard" class="tab">
-            <div class="page-header">
-                <h1>📊 Dashboard</h1>
-                <button class="btn btn-secondary" id="refreshStats">🔄 Refresh</button>
-            </div>
+        </main>
+    </div>
 
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-icon">🔍</div>
-                    <div class="stat-value" id="statTotal">—</div>
-                    <div class="stat-label">Total Analyzed</div>
-                </div>
-                <div class="stat-card danger">
-                    <div class="stat-icon">🚨</div>
-                    <div class="stat-value" id="statScams">—</div>
-                    <div class="stat-label">Scams Detected</div>
-                </div>
-                <div class="stat-card success">
-                    <div class="stat-icon">✅</div>
-                    <div class="stat-value" id="statSafe">—</div>
-                    <div class="stat-label">Safe Content</div>
-                </div>
-                <div class="stat-card warn">
-                    <div class="stat-icon">📈</div>
-                    <div class="stat-value" id="statRate">—</div>
-                    <div class="stat-label">Detection Rate</div>
-                </div>
-            </div>
-
-            <div class="charts-grid">
-                <div class="card">
-                    <h3>Risk Level Distribution</h3>
-                    <canvas id="riskChart" height="220"></canvas>
-                </div>
-                <div class="card">
-                    <h3>Detection Activity</h3>
-                    <canvas id="activityChart" height="220"></canvas>
-                </div>
-            </div>
-        </section>
-
-        <!-- ── History Tab ───────────────────────────────── -->
-        <section id="tab-history" class="tab">
-            <div class="page-header">
-                <h1>📋 Detection History</h1>
-                <button class="btn btn-secondary" id="refreshHistory">🔄 Refresh</button>
-            </div>
-            <div class="card">
-                <div id="historyTable" class="history-table-wrap">
-                    <p class="loading-msg">Loading history...</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- ── About Tab ─────────────────────────────────── -->
-        <section id="tab-about" class="tab">
-            <div class="page-header">
-                <h1>ℹ️ About ScamGuard AI</h1>
-            </div>
-            <div class="about-grid">
-                <div class="card">
-                    <h3>🧠 AI Detection Pipeline</h3>
-                    <div class="pipeline">
-                        <div class="pipe-step">📝 Text Input</div>
-                        <div class="pipe-arrow">→</div>
-                        <div class="pipe-step">📋 Rule Engine</div>
-                        <div class="pipe-arrow">→</div>
-                        <div class="pipe-step">⏰ Time Pressure</div>
-                        <div class="pipe-arrow">→</div>
-                        <div class="pipe-step">🔤 Linguistics</div>
-                        <div class="pipe-arrow">→</div>
-                        <div class="pipe-step">🌐 URL Analysis</div>
-                        <div class="pipe-arrow">→</div>
-                        <div class="pipe-step">🎯 Ensemble Score</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <h3>🛡️ Scam Types Detected</h3>
-                    <ul class="feature-list">
-                        <li>⏰ Urgency Manipulation & Fake Countdowns</li>
-                        <li>🎣 Phishing with Time Pressure</li>
-                        <li>💰 Financial Fraud & Crypto Scams</li>
-                        <li>🆘 Fake Emergencies & Social Engineering</li>
-                        <li>📧 Email Impersonation</li>
-                        <li>🔗 Malicious URL Detection</li>
-                        <li>🎁 Limited-Offer Fraud</li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <h3>⚙️ Automated Protection</h3>
-                    <ul class="feature-list">
-                        <li>🔒 Automatic Sender/Domain Blocking</li>
-                        <li>🔔 Real-time Alerts (Slack/Discord)</li>
-                        <li>🗄️ Content Quarantine</li>
-                        <li>📋 Incident Report Generation</li>
-                        <li>📊 Detection History & Analytics</li>
-                        <li>🌐 REST API for integration</li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <h3>📡 API Endpoints</h3>
-                    <ul class="api-list">
-                        <li><code>POST /api/v1/analyze</code> — Analyze text</li>
-                        <li><code>POST /api/v1/analyze/email</code> — Analyze email</li>
-                        <li><code>POST /api/v1/analyze/url</code> — Analyze URL</li>
-                        <li><code>POST /api/v1/train</code> — Submit training data</li>
-                        <li><code>GET  /api/v1/stats</code> — System statistics</li>
-                        <li><code>GET  /api/v1/health</code> — Health check</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-    </main>
+    <!-- Toast container -->
+    <div id="toastContainer" class="toast-container"></div>
 
     <script src="/static/js/dashboard.js"></script>
 </body>

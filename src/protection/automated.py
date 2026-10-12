@@ -95,7 +95,7 @@ class AutomatedProtection:
     def _flag_content(self, result) -> Dict:
         """Mark content as suspicious in logs."""
         logger.warning(
-            f"🚩 FLAGGED | hash={result.content_hash} | "
+            f"[FLAGGED] hash={result.content_hash} | "
             f"score={result.overall_score:.3f} | risk={result.risk_level}"
         )
         return {"status": "flagged", "content_hash": result.content_hash}
@@ -117,7 +117,7 @@ class AutomatedProtection:
             blocked.append(f"url:{url[:50]}")
 
         if blocked:
-            logger.warning(f"🔒 BLOCKED: {', '.join(blocked)}")
+            logger.warning(f"[BLOCKED] {', '.join(blocked)}")
 
         return {
             "status":  "blocked",
@@ -139,7 +139,7 @@ class AutomatedProtection:
 
         # Console alert
         logger.critical(
-            f"🚨 SCAM ALERT | risk={result.risk_level.upper()} | "
+            f"[ALERT] risk={result.risk_level.upper()} | "
             f"score={result.overall_score:.3f} | types={result.scam_types}"
         )
 
@@ -149,7 +149,7 @@ class AutomatedProtection:
             try:
                 slack_payload = {
                     "text": (
-                        f"🚨 *SCAM DETECTED* | Risk: `{result.risk_level.upper()}` | "
+                        f"[THREAT DETECTED] Risk: `{result.risk_level.upper()}` | "
                         f"Score: `{result.overall_score:.2f}` | "
                         f"Types: `{', '.join(result.scam_types)}`\n"
                         f"Content Hash: `{result.content_hash}`"
@@ -167,7 +167,7 @@ class AutomatedProtection:
             try:
                 discord_payload = {
                     "embeds": [{
-                        "title": "🚨 Scam Detected",
+                        "title": "Threat Detected",
                         "color": 0xFF0000 if result.risk_level == "critical" else 0xFF6600,
                         "fields": [
                             {"name": "Risk Level",  "value": result.risk_level.upper(), "inline": True},
@@ -196,7 +196,7 @@ class AutomatedProtection:
         with open(filename, "w") as f:
             json.dump(data, f, indent=2)
 
-        logger.info(f"🗄️ Quarantined: {filename}")
+        logger.info(f"[QUARANTINE] {filename}")
         return {"status": "quarantined", "file": str(filename)}
 
     def _generate_incident_report(self, result, source: str) -> Dict:
@@ -218,7 +218,7 @@ class AutomatedProtection:
         with open(filepath, "w") as f:
             json.dump(report, f, indent=2)
 
-        logger.info(f"📋 Incident report: {incident_id}")
+        logger.info(f"[INCIDENT] {incident_id}")
         return {"status": "report_generated", "incident_id": incident_id, "file": str(filepath)}
 
     # ─────────────────────────────────────────────────────────
