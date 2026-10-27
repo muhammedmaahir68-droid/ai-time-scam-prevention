@@ -1,0 +1,1001 @@
+id,text,label,label_name,threat_category,urgency_level
+SCAM_0017,Your bank account has been frozen. Call this number NOW to unlock it!,1,scam,crypto_scam,HIGH
+SCAM_0087,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price! Reference ID: #6344.,1,scam,fake_emergency,CRITICAL
+SCAM_0016,Your bank account has been frozen. Call this number NOW to unlock it!,1,scam,urgency_manipulation,HIGH
+LEGIT_0131,HR update: Open enrollment for health insurance benefits starts next week. Note: ticket #607.,0,legitimate,clean_communication,LOW
+SCAM_0322,Exclusive offer: 200% ROI guaranteed. Only 5 investors accepted. Apply today! Reference ID: #6908.,1,scam,fake_countdown,HIGH
+SCAM_0079,PayPal security alert: Unusual activity detected. Confirm account NOW or it will be locked! Reference ID: #5573.,1,scam,fake_countdown,CRITICAL
+LEGIT_0400,HR update: Open enrollment for health insurance benefits starts next week.,0,legitimate,clean_communication,LOW
+SCAM_0125,HURRY! Limited time offer expires at midnight. Don't miss out!,1,scam,financial_fraud,CRITICAL
+SCAM_0380,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price! Reference ID: #4524.,1,scam,malicious_url,CRITICAL
+SCAM_0094,"IRS URGENT: You owe $3,400 in back taxes. Pay immediately to avoid arrest warrant! Reference ID: #3414.",1,scam,financial_fraud,HIGH
+LEGIT_0335,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+SCAM_0274,Limited time: Act in the next 5 minutes or this deal is gone forever!,1,scam,fake_countdown,CRITICAL
+SCAM_0438,"You've won $1,000,000 in our lottery! But you must claim within 24 hours! Reference ID: #7487.",1,scam,fake_emergency,CRITICAL
+LEGIT_0397,Conference room B has been reserved for your team from 2 PM to 4 PM.,0,legitimate,clean_communication,LOW
+LEGIT_0184,Your flight booking is confirmed. Check-in opens 24 hours prior to departure.,0,legitimate,clean_communication,LOW
+SCAM_0080,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price! Reference ID: #9785.,1,scam,crypto_scam,CRITICAL
+SCAM_0459,Exclusive offer: 200% ROI guaranteed. Only 5 investors accepted. Apply today!,1,scam,malicious_url,HIGH
+SCAM_0160,URGENT: Your grandson is in hospital! Send money immediately to help him! Reference ID: #3441.,1,scam,fake_countdown,CRITICAL
+SCAM_0323,Limited time: Act in the next 5 minutes or this deal is gone forever!,1,scam,urgency_manipulation,CRITICAL
+SCAM_0473,Apple ID suspended: Verify your information within 24 hours or lose your account!,1,scam,phishing_time_pressure,HIGH
+SCAM_0242,IMMEDIATE ACTION REQUIRED: Your payment is overdue. Pay now to avoid legal action! Reference ID: #4522.,1,scam,fake_countdown,CRITICAL
+SCAM_0389,LAST CHANCE! Only 3 spots left. Must respond in the next 30 minutes!,1,scam,urgency_manipulation,CRITICAL
+SCAM_0400,Limited time: Act in the next 5 minutes or this deal is gone forever! Reference ID: #8837.,1,scam,financial_fraud,CRITICAL
+SCAM_0366,Google detected suspicious login! Verify your Google account in 15 minutes! Reference ID: #1464.,1,scam,urgency_manipulation,HIGH
+LEGIT_0480,Conference room B has been reserved for your team from 2 PM to 4 PM.,0,legitimate,clean_communication,LOW
+LEGIT_0385,Your flight booking is confirmed. Check-in opens 24 hours prior to departure.,0,legitimate,clean_communication,LOW
+SCAM_0145,Exclusive offer: 200% ROI guaranteed. Only 5 investors accepted. Apply today!,1,scam,fake_emergency,HIGH
+SCAM_0036,HURRY! Limited time offer expires at midnight. Don't miss out!,1,scam,social_engineering,HIGH
+SCAM_0239,HURRY! Limited time offer expires at midnight. Don't miss out!,1,scam,fake_countdown,HIGH
+SCAM_0146,PayPal security alert: Unusual activity detected. Confirm account NOW or it will be locked! Reference ID: #5786.,1,scam,urgency_manipulation,HIGH
+LEGIT_0140,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM.",0,legitimate,clean_communication,LOW
+LEGIT_0328,Your monthly bank statement is now available for download in your online portal. Note: ticket #888.,0,legitimate,clean_communication,LOW
+LEGIT_0003,HR update: Open enrollment for health insurance benefits starts next week.,0,legitimate,clean_communication,LOW
+SCAM_0450,"FREE money! Government stimulus program - claim your $2,500 before deadline.",1,scam,fake_countdown,HIGH
+SCAM_0295,You have been selected! But you must respond within the next 10 minutes. Reference ID: #6381.,1,scam,fake_emergency,HIGH
+LEGIT_0457,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+LEGIT_0417,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+SCAM_0291,Google detected suspicious login! Verify your Google account in 15 minutes! Reference ID: #6482.,1,scam,urgency_manipulation,HIGH
+SCAM_0164,You have been selected! But you must respond within the next 10 minutes. Reference ID: #6280.,1,scam,urgency_manipulation,CRITICAL
+SCAM_0394,"Hi dear, I'm stranded in London after being robbed. Please send $200 via Western Union! Reference ID: #1436.",1,scam,fake_emergency,CRITICAL
+SCAM_0419,Apple ID suspended: Verify your information within 24 hours or lose your account! Reference ID: #9901.,1,scam,malicious_url,CRITICAL
+LEGIT_0041,Your monthly bank statement is now available for download in your online portal. Note: ticket #304.,0,legitimate,clean_communication,LOW
+LEGIT_0186,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM.,0,legitimate,clean_communication,LOW
+LEGIT_0340,Your flight booking is confirmed. Check-in opens 24 hours prior to departure. Note: ticket #669.,0,legitimate,clean_communication,LOW
+SCAM_0397,LAST CHANCE! Only 3 spots left. Must respond in the next 30 minutes!,1,scam,fake_countdown,CRITICAL
+LEGIT_0444,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+SCAM_0180,⏰ COUNTDOWN: Only 2 hours left to claim your prize! Timer is ticking!,1,scam,financial_fraud,HIGH
+LEGIT_0395,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM.",0,legitimate,clean_communication,LOW
+LEGIT_0088,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+SCAM_0461,"Hi dear, I'm stranded in London after being robbed. Please send $200 via Western Union!",1,scam,phishing_time_pressure,CRITICAL
+SCAM_0113,Double your money in 3 days! Risk-free investment opportunity. Act fast! Reference ID: #9751.,1,scam,malicious_url,HIGH
+LEGIT_0092,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+SCAM_0432,FLASH SALE: Investment property - 80% off market value. Offer ends in 6 hours! Reference ID: #9653.,1,scam,fake_countdown,CRITICAL
+LEGIT_0025,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+LEGIT_0152,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM. Note: ticket #978.,0,legitimate,clean_communication,LOW
+SCAM_0334,I found your number. I love you and need your help. Please send gift cards.,1,scam,crypto_scam,HIGH
+LEGIT_0022,Your flight booking is confirmed. Check-in opens 24 hours prior to departure.,0,legitimate,clean_communication,LOW
+SCAM_0035,Limited time: Act in the next 5 minutes or this deal is gone forever!,1,scam,malicious_url,HIGH
+LEGIT_0297,Our annual company hackathon will begin next month. Register your team today. Note: ticket #605.,0,legitimate,clean_communication,LOW
+SCAM_0044,IMMEDIATE ACTION REQUIRED: Your payment is overdue. Pay now to avoid legal action!,1,scam,financial_fraud,CRITICAL
+LEGIT_0422,The library book you requested is ready for pickup at the main circulation desk. Note: ticket #326.,0,legitimate,clean_communication,LOW
+SCAM_0273,URGENT: Your grandson is in hospital! Send money immediately to help him!,1,scam,fake_countdown,CRITICAL
+LEGIT_0350,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+LEGIT_0298,The library book you requested is ready for pickup at the main circulation desk. Note: ticket #850.,0,legitimate,clean_communication,LOW
+SCAM_0491,"FREE money! Government stimulus program - claim your $2,500 before deadline.",1,scam,malicious_url,HIGH
+LEGIT_0314,HR update: Open enrollment for health insurance benefits starts next week.,0,legitimate,clean_communication,LOW
+LEGIT_0438,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins.,0,legitimate,clean_communication,LOW
+LEGIT_0410,The library book you requested is ready for pickup at the main circulation desk. Note: ticket #598.,0,legitimate,clean_communication,LOW
+SCAM_0402,Netflix subscription will be cancelled. Update payment details immediately! Reference ID: #4150.,1,scam,fake_emergency,HIGH
+LEGIT_0413,Happy birthday! Enjoy a 15% discount on your next store visit this month. Note: ticket #905.,0,legitimate,clean_communication,LOW
+SCAM_0257,You have been selected! But you must respond within the next 10 minutes.,1,scam,financial_fraud,CRITICAL
+LEGIT_0255,Your flight booking is confirmed. Check-in opens 24 hours prior to departure.,0,legitimate,clean_communication,LOW
+LEGIT_0127,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM. Note: ticket #325.",0,legitimate,clean_communication,LOW
+LEGIT_0069,Please find attached the minutes of our quarterly review meeting.,0,legitimate,clean_communication,LOW
+LEGIT_0196,Your electricity bill of .20 is due in 15 days. Autopay is active.,0,legitimate,clean_communication,LOW
+SCAM_0012,PayPal security alert: Unusual activity detected. Confirm account NOW or it will be locked! Reference ID: #6977.,1,scam,malicious_url,HIGH
+LEGIT_0146,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+SCAM_0043,Final warning: Your subscription ends tonight. Renew NOW or lose access!,1,scam,fake_countdown,CRITICAL
+SCAM_0460,"IRS URGENT: You owe $3,400 in back taxes. Pay immediately to avoid arrest warrant! Reference ID: #1944.",1,scam,phishing_time_pressure,CRITICAL
+LEGIT_0370,Conference room B has been reserved for your team from 2 PM to 4 PM. Note: ticket #491.,0,legitimate,clean_communication,LOW
+SCAM_0305,Social Security Administration: Your SSN has been suspended. Call now!,1,scam,malicious_url,CRITICAL
+LEGIT_0225,Please find attached the minutes of our quarterly review meeting. Note: ticket #402.,0,legitimate,clean_communication,LOW
+SCAM_0441,⏰ COUNTDOWN: Only 2 hours left to claim your prize! Timer is ticking!,1,scam,urgency_manipulation,HIGH
+LEGIT_0462,Your electricity bill of .20 is due in 15 days. Autopay is active.,0,legitimate,clean_communication,LOW
+LEGIT_0183,Weekly project status report: All sprint deliverables are on track for Friday.,0,legitimate,clean_communication,LOW
+LEGIT_0032,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins. Note: ticket #708.,0,legitimate,clean_communication,LOW
+LEGIT_0391,Your electricity bill of .20 is due in 15 days. Autopay is active.,0,legitimate,clean_communication,LOW
+LEGIT_0190,Happy birthday! Enjoy a 15% discount on your next store visit this month. Note: ticket #153.,0,legitimate,clean_communication,LOW
+SCAM_0088,Apple ID suspended: Verify your information within 24 hours or lose your account!,1,scam,phishing_time_pressure,CRITICAL
+SCAM_0264,We can recover your lost crypto funds. Pay a small fee and get it all back! Reference ID: #1897.,1,scam,crypto_scam,HIGH
+SCAM_0203,Double your money in 3 days! Risk-free investment opportunity. Act fast!,1,scam,fake_countdown,CRITICAL
+LEGIT_0052,Your flight booking is confirmed. Check-in opens 24 hours prior to departure. Note: ticket #175.,0,legitimate,clean_communication,LOW
+SCAM_0245,Your bank account has been frozen. Call this number NOW to unlock it!,1,scam,fake_emergency,HIGH
+SCAM_0249,"Hi dear, I'm stranded in London after being robbed. Please send $200 via Western Union! Reference ID: #7929.",1,scam,social_engineering,HIGH
+SCAM_0218,Social Security Administration: Your SSN has been suspended. Call now! Reference ID: #8724.,1,scam,fake_countdown,HIGH
+LEGIT_0294,Our annual company hackathon will begin next month. Register your team today.,0,legitimate,clean_communication,LOW
+SCAM_0363,Netflix subscription will be cancelled. Update payment details immediately! Reference ID: #5105.,1,scam,fake_emergency,HIGH
+SCAM_0401,Your bank account has been frozen. Call this number NOW to unlock it!,1,scam,phishing_time_pressure,CRITICAL
+SCAM_0022,WARNING: Your Microsoft account will be closed in 12 hours. Click here to verify! Reference ID: #7916.,1,scam,phishing_time_pressure,HIGH
+LEGIT_0306,HR update: Open enrollment for health insurance benefits starts next week. Note: ticket #206.,0,legitimate,clean_communication,LOW
+LEGIT_0014,Your flight booking is confirmed. Check-in opens 24 hours prior to departure.,0,legitimate,clean_communication,LOW
+SCAM_0183,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price! Reference ID: #5634.,1,scam,fake_emergency,CRITICAL
+LEGIT_0015,Your monthly bank statement is now available for download in your online portal. Note: ticket #672.,0,legitimate,clean_communication,LOW
+SCAM_0316,You have been selected! But you must respond within the next 10 minutes.,1,scam,urgency_manipulation,HIGH
+SCAM_0084,Mom I'm in trouble! I got arrested and need $500 in gift cards. Don't tell Dad!,1,scam,financial_fraud,CRITICAL
+SCAM_0038,We can recover your lost crypto funds. Pay a small fee and get it all back! Reference ID: #6413.,1,scam,fake_countdown,HIGH
+SCAM_0426,I found your number. I love you and need your help. Please send gift cards. Reference ID: #5947.,1,scam,fake_emergency,HIGH
+LEGIT_0494,Your electricity bill of .20 is due in 15 days. Autopay is active.,0,legitimate,clean_communication,LOW
+SCAM_0208,The clock is ticking! Your exclusive discount disappears at midnight TONIGHT! Reference ID: #4770.,1,scam,fake_emergency,CRITICAL
+LEGIT_0310,HR update: Open enrollment for health insurance benefits starts next week.,0,legitimate,clean_communication,LOW
+LEGIT_0204,Happy birthday! Enjoy a 15% discount on your next store visit this month.,0,legitimate,clean_communication,LOW
+SCAM_0219,Your bank account has been frozen. Call this number NOW to unlock it! Reference ID: #8606.,1,scam,financial_fraud,CRITICAL
+SCAM_0499,Mom I'm in trouble! I got arrested and need $500 in gift cards. Don't tell Dad!,1,scam,crypto_scam,CRITICAL
+SCAM_0099,Final warning: Your subscription ends tonight. Renew NOW or lose access! Reference ID: #2988.,1,scam,financial_fraud,CRITICAL
+LEGIT_0106,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days. Note: ticket #822.,0,legitimate,clean_communication,LOW
+LEGIT_0458,Your electricity bill of .20 is due in 15 days. Autopay is active. Note: ticket #602.,0,legitimate,clean_communication,LOW
+LEGIT_0232,Happy birthday! Enjoy a 15% discount on your next store visit this month.,0,legitimate,clean_communication,LOW
+LEGIT_0253,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins.,0,legitimate,clean_communication,LOW
+LEGIT_0464,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days. Note: ticket #183.,0,legitimate,clean_communication,LOW
+SCAM_0070,Bitcoin will SKYROCKET tomorrow! Insider tip - buy before it's too late! Reference ID: #3426.,1,scam,urgency_manipulation,CRITICAL
+SCAM_0466,ACT NOW! This offer expires in 2 hours. Click here or lose your chance FOREVER! Reference ID: #2922.,1,scam,financial_fraud,CRITICAL
+LEGIT_0089,Your flight booking is confirmed. Check-in opens 24 hours prior to departure. Note: ticket #337.,0,legitimate,clean_communication,LOW
+LEGIT_0209,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+SCAM_0405,⏰ COUNTDOWN: Only 2 hours left to claim your prize! Timer is ticking! Reference ID: #5480.,1,scam,social_engineering,CRITICAL
+SCAM_0102,Double your money in 3 days! Risk-free investment opportunity. Act fast!,1,scam,malicious_url,HIGH
+SCAM_0118,Your Amazon account has been compromised! Verify your identity in the next hour!,1,scam,fake_countdown,HIGH
+SCAM_0443,I found your number. I love you and need your help. Please send gift cards.,1,scam,crypto_scam,HIGH
+LEGIT_0118,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM.,0,legitimate,clean_communication,LOW
+LEGIT_0158,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days. Note: ticket #948.,0,legitimate,clean_communication,LOW
+SCAM_0063,"IRS URGENT: You owe $3,400 in back taxes. Pay immediately to avoid arrest warrant! Reference ID: #3200.",1,scam,fake_countdown,CRITICAL
+SCAM_0375,FLASH SALE: Investment property - 80% off market value. Offer ends in 6 hours!,1,scam,phishing_time_pressure,CRITICAL
+SCAM_0251,Bitcoin will SKYROCKET tomorrow! Insider tip - buy before it's too late!,1,scam,malicious_url,HIGH
+LEGIT_0220,Conference room B has been reserved for your team from 2 PM to 4 PM. Note: ticket #838.,0,legitimate,clean_communication,LOW
+LEGIT_0388,Our annual company hackathon will begin next month. Register your team today. Note: ticket #814.,0,legitimate,clean_communication,LOW
+SCAM_0365,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price! Reference ID: #3526.,1,scam,phishing_time_pressure,HIGH
+SCAM_0122,Your Amazon account has been compromised! Verify your identity in the next hour!,1,scam,social_engineering,HIGH
+LEGIT_0325,The library book you requested is ready for pickup at the main circulation desk. Note: ticket #259.,0,legitimate,clean_communication,LOW
+SCAM_0408,Netflix subscription will be cancelled. Update payment details immediately! Reference ID: #8849.,1,scam,malicious_url,HIGH
+LEGIT_0403,Your electricity bill of .20 is due in 15 days. Autopay is active. Note: ticket #245.,0,legitimate,clean_communication,LOW
+LEGIT_0241,Conference room B has been reserved for your team from 2 PM to 4 PM.,0,legitimate,clean_communication,LOW
+LEGIT_0042,Your electricity bill of .20 is due in 15 days. Autopay is active. Note: ticket #284.,0,legitimate,clean_communication,LOW
+SCAM_0331,⏰ COUNTDOWN: Only 2 hours left to claim your prize! Timer is ticking!,1,scam,fake_emergency,HIGH
+SCAM_0458,"Hi dear, I'm stranded in London after being robbed. Please send $200 via Western Union!",1,scam,crypto_scam,CRITICAL
+SCAM_0379,The clock is ticking! Your exclusive discount disappears at midnight TONIGHT!,1,scam,urgency_manipulation,CRITICAL
+SCAM_0090,"IRS URGENT: You owe $3,400 in back taxes. Pay immediately to avoid arrest warrant!",1,scam,fake_emergency,CRITICAL
+LEGIT_0265,Happy birthday! Enjoy a 15% discount on your next store visit this month.,0,legitimate,clean_communication,LOW
+LEGIT_0242,HR update: Open enrollment for health insurance benefits starts next week. Note: ticket #525.,0,legitimate,clean_communication,LOW
+LEGIT_0317,Your electricity bill of .20 is due in 15 days. Autopay is active. Note: ticket #545.,0,legitimate,clean_communication,LOW
+SCAM_0342,URGENT: Your account will be suspended in 24 hours. Verify immediately. Reference ID: #8179.,1,scam,phishing_time_pressure,HIGH
+SCAM_0221,"IRS URGENT: You owe $3,400 in back taxes. Pay immediately to avoid arrest warrant!",1,scam,malicious_url,HIGH
+SCAM_0404,Apple ID suspended: Verify your information within 24 hours or lose your account! Reference ID: #9011.,1,scam,financial_fraud,CRITICAL
+SCAM_0130,⏰ COUNTDOWN: Only 2 hours left to claim your prize! Timer is ticking!,1,scam,malicious_url,CRITICAL
+SCAM_0018,Your bank account has been frozen. Call this number NOW to unlock it! Reference ID: #7482.,1,scam,financial_fraud,CRITICAL
+SCAM_0465,⏰ COUNTDOWN: Only 2 hours left to claim your prize! Timer is ticking! Reference ID: #6455.,1,scam,financial_fraud,CRITICAL
+SCAM_0189,LAST CHANCE! Only 3 spots left. Must respond in the next 30 minutes! Reference ID: #6439.,1,scam,phishing_time_pressure,HIGH
+SCAM_0057,FLASH SALE: Investment property - 80% off market value. Offer ends in 6 hours!,1,scam,fake_emergency,CRITICAL
+LEGIT_0113,Your electricity bill of .20 is due in 15 days. Autopay is active.,0,legitimate,clean_communication,LOW
+LEGIT_0470,Your flight booking is confirmed. Check-in opens 24 hours prior to departure.,0,legitimate,clean_communication,LOW
+SCAM_0387,This is the FBI. You are under investigation. Cooperate now or face consequences. Reference ID: #6555.,1,scam,social_engineering,CRITICAL
+SCAM_0312,FLASH SALE: Investment property - 80% off market value. Offer ends in 6 hours! Reference ID: #7142.,1,scam,crypto_scam,HIGH
+SCAM_0299,Bitcoin will SKYROCKET tomorrow! Insider tip - buy before it's too late!,1,scam,fake_countdown,HIGH
+LEGIT_0285,Happy birthday! Enjoy a 15% discount on your next store visit this month. Note: ticket #377.,0,legitimate,clean_communication,LOW
+SCAM_0126,WARNING: Your Microsoft account will be closed in 12 hours. Click here to verify!,1,scam,urgency_manipulation,CRITICAL
+SCAM_0078,We can recover your lost crypto funds. Pay a small fee and get it all back! Reference ID: #7528.,1,scam,urgency_manipulation,CRITICAL
+LEGIT_0450,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+SCAM_0377,Your bank account has been frozen. Call this number NOW to unlock it!,1,scam,social_engineering,HIGH
+LEGIT_0234,Your flight booking is confirmed. Check-in opens 24 hours prior to departure.,0,legitimate,clean_communication,LOW
+LEGIT_0051,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM. Note: ticket #832.,0,legitimate,clean_communication,LOW
+SCAM_0492,PayPal security alert: Unusual activity detected. Confirm account NOW or it will be locked!,1,scam,urgency_manipulation,CRITICAL
+LEGIT_0461,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM. Note: ticket #740.,0,legitimate,clean_communication,LOW
+LEGIT_0431,Please find attached the minutes of our quarterly review meeting. Note: ticket #458.,0,legitimate,clean_communication,LOW
+LEGIT_0456,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM.,0,legitimate,clean_communication,LOW
+SCAM_0120,FLASH SALE: Investment property - 80% off market value. Offer ends in 6 hours! Reference ID: #3496.,1,scam,financial_fraud,HIGH
+LEGIT_0283,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+SCAM_0355,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now! Reference ID: #1430.,1,scam,financial_fraud,CRITICAL
+SCAM_0307,Your Amazon account has been compromised! Verify your identity in the next hour! Reference ID: #7081.,1,scam,urgency_manipulation,HIGH
+SCAM_0480,Social Security Administration: Your SSN has been suspended. Call now! Reference ID: #8916.,1,scam,urgency_manipulation,CRITICAL
+SCAM_0042,URGENT: Your grandson is in hospital! Send money immediately to help him!,1,scam,social_engineering,CRITICAL
+LEGIT_0380,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+SCAM_0289,FLASH SALE: Investment property - 80% off market value. Offer ends in 6 hours! Reference ID: #9586.,1,scam,malicious_url,HIGH
+LEGIT_0489,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days. Note: ticket #927.,0,legitimate,clean_communication,LOW
+SCAM_0479,HURRY! Limited time offer expires at midnight. Don't miss out!,1,scam,phishing_time_pressure,CRITICAL
+SCAM_0110,"IRS URGENT: You owe $3,400 in back taxes. Pay immediately to avoid arrest warrant! Reference ID: #7865.",1,scam,crypto_scam,HIGH
+SCAM_0011,Apple ID suspended: Verify your information within 24 hours or lose your account! Reference ID: #2654.,1,scam,fake_countdown,CRITICAL
+SCAM_0362,"IRS URGENT: You owe $3,400 in back taxes. Pay immediately to avoid arrest warrant!",1,scam,phishing_time_pressure,HIGH
+LEGIT_0362,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+LEGIT_0276,Please find attached the minutes of our quarterly review meeting. Note: ticket #102.,0,legitimate,clean_communication,LOW
+SCAM_0045,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now!,1,scam,crypto_scam,CRITICAL
+SCAM_0048,"Hi dear, I'm stranded in London after being robbed. Please send $200 via Western Union!",1,scam,malicious_url,CRITICAL
+LEGIT_0322,Our annual company hackathon will begin next month. Register your team today.,0,legitimate,clean_communication,LOW
+SCAM_0354,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price!,1,scam,financial_fraud,HIGH
+LEGIT_0467,Weekly project status report: All sprint deliverables are on track for Friday. Note: ticket #371.,0,legitimate,clean_communication,LOW
+LEGIT_0035,Weekly project status report: All sprint deliverables are on track for Friday.,0,legitimate,clean_communication,LOW
+SCAM_0374,FLASH SALE: Investment property - 80% off market value. Offer ends in 6 hours!,1,scam,malicious_url,CRITICAL
+LEGIT_0309,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM. Note: ticket #245.",0,legitimate,clean_communication,LOW
+LEGIT_0233,Your flight booking is confirmed. Check-in opens 24 hours prior to departure. Note: ticket #682.,0,legitimate,clean_communication,LOW
+LEGIT_0345,The library book you requested is ready for pickup at the main circulation desk. Note: ticket #233.,0,legitimate,clean_communication,LOW
+LEGIT_0192,HR update: Open enrollment for health insurance benefits starts next week. Note: ticket #539.,0,legitimate,clean_communication,LOW
+SCAM_0422,ACT NOW! This offer expires in 2 hours. Click here or lose your chance FOREVER! Reference ID: #4164.,1,scam,social_engineering,HIGH
+SCAM_0140,URGENT: Your grandson is in hospital! Send money immediately to help him!,1,scam,social_engineering,CRITICAL
+SCAM_0470,"You've won $1,000,000 in our lottery! But you must claim within 24 hours! Reference ID: #8692.",1,scam,fake_countdown,CRITICAL
+LEGIT_0330,Weekly project status report: All sprint deliverables are on track for Friday.,0,legitimate,clean_communication,LOW
+SCAM_0095,LAST CHANCE! Only 3 spots left. Must respond in the next 30 minutes! Reference ID: #2193.,1,scam,financial_fraud,CRITICAL
+SCAM_0403,PayPal security alert: Unusual activity detected. Confirm account NOW or it will be locked!,1,scam,fake_emergency,CRITICAL
+SCAM_0446,URGENT: Your account will be suspended in 24 hours. Verify immediately.,1,scam,fake_emergency,CRITICAL
+LEGIT_0023,The library book you requested is ready for pickup at the main circulation desk.,0,legitimate,clean_communication,LOW
+LEGIT_0275,Your electricity bill of .20 is due in 15 days. Autopay is active. Note: ticket #218.,0,legitimate,clean_communication,LOW
+SCAM_0238,This is the FBI. You are under investigation. Cooperate now or face consequences. Reference ID: #9032.,1,scam,crypto_scam,CRITICAL
+SCAM_0356,Social Security Administration: Your SSN has been suspended. Call now! Reference ID: #3126.,1,scam,malicious_url,HIGH
+LEGIT_0287,Our annual company hackathon will begin next month. Register your team today.,0,legitimate,clean_communication,LOW
+SCAM_0159,"You've won $1,000,000 in our lottery! But you must claim within 24 hours! Reference ID: #5334.",1,scam,fake_countdown,HIGH
+LEGIT_0040,The library book you requested is ready for pickup at the main circulation desk.,0,legitimate,clean_communication,LOW
+SCAM_0065,Apple ID suspended: Verify your information within 24 hours or lose your account! Reference ID: #4335.,1,scam,financial_fraud,CRITICAL
+LEGIT_0045,HR update: Open enrollment for health insurance benefits starts next week.,0,legitimate,clean_communication,LOW
+SCAM_0004,We can recover your lost crypto funds. Pay a small fee and get it all back! Reference ID: #9928.,1,scam,urgency_manipulation,CRITICAL
+LEGIT_0055,Conference room B has been reserved for your team from 2 PM to 4 PM. Note: ticket #990.,0,legitimate,clean_communication,LOW
+LEGIT_0453,Please find attached the minutes of our quarterly review meeting. Note: ticket #519.,0,legitimate,clean_communication,LOW
+LEGIT_0187,Happy birthday! Enjoy a 15% discount on your next store visit this month. Note: ticket #195.,0,legitimate,clean_communication,LOW
+LEGIT_0085,Your monthly bank statement is now available for download in your online portal. Note: ticket #268.,0,legitimate,clean_communication,LOW
+SCAM_0392,Google detected suspicious login! Verify your Google account in 15 minutes! Reference ID: #5911.,1,scam,malicious_url,CRITICAL
+SCAM_0107,"Hi dear, I'm stranded in London after being robbed. Please send $200 via Western Union! Reference ID: #7812.",1,scam,social_engineering,HIGH
+LEGIT_0439,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins. Note: ticket #876.,0,legitimate,clean_communication,LOW
+SCAM_0332,Apple ID suspended: Verify your information within 24 hours or lose your account! Reference ID: #1783.,1,scam,social_engineering,CRITICAL
+LEGIT_0214,Happy birthday! Enjoy a 15% discount on your next store visit this month.,0,legitimate,clean_communication,LOW
+SCAM_0171,LAST CHANCE! Only 3 spots left. Must respond in the next 30 minutes!,1,scam,malicious_url,CRITICAL
+LEGIT_0082,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+SCAM_0074,Exclusive offer: 200% ROI guaranteed. Only 5 investors accepted. Apply today!,1,scam,crypto_scam,CRITICAL
+LEGIT_0038,Your electricity bill of .20 is due in 15 days. Autopay is active. Note: ticket #433.,0,legitimate,clean_communication,LOW
+LEGIT_0070,Your flight booking is confirmed. Check-in opens 24 hours prior to departure.,0,legitimate,clean_communication,LOW
+LEGIT_0068,Conference room B has been reserved for your team from 2 PM to 4 PM. Note: ticket #689.,0,legitimate,clean_communication,LOW
+LEGIT_0474,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM.",0,legitimate,clean_communication,LOW
+SCAM_0436,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price! Reference ID: #8429.,1,scam,malicious_url,HIGH
+LEGIT_0200,HR update: Open enrollment for health insurance benefits starts next week.,0,legitimate,clean_communication,LOW
+LEGIT_0246,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM.,0,legitimate,clean_communication,LOW
+SCAM_0240,HURRY! Limited time offer expires at midnight. Don't miss out!,1,scam,phishing_time_pressure,CRITICAL
+LEGIT_0493,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins. Note: ticket #954.,0,legitimate,clean_communication,LOW
+SCAM_0191,Bitcoin will SKYROCKET tomorrow! Insider tip - buy before it's too late! Reference ID: #3529.,1,scam,crypto_scam,HIGH
+LEGIT_0308,Your flight booking is confirmed. Check-in opens 24 hours prior to departure.,0,legitimate,clean_communication,LOW
+SCAM_0428,"You've won $1,000,000 in our lottery! But you must claim within 24 hours!",1,scam,fake_emergency,CRITICAL
+LEGIT_0263,Our annual company hackathon will begin next month. Register your team today.,0,legitimate,clean_communication,LOW
+SCAM_0190,I found your number. I love you and need your help. Please send gift cards. Reference ID: #8486.,1,scam,fake_countdown,HIGH
+LEGIT_0170,Weekly project status report: All sprint deliverables are on track for Friday. Note: ticket #814.,0,legitimate,clean_communication,LOW
+SCAM_0223,Bitcoin will SKYROCKET tomorrow! Insider tip - buy before it's too late! Reference ID: #9017.,1,scam,crypto_scam,CRITICAL
+SCAM_0158,Apple ID suspended: Verify your information within 24 hours or lose your account!,1,scam,urgency_manipulation,CRITICAL
+LEGIT_0261,Our annual company hackathon will begin next month. Register your team today. Note: ticket #901.,0,legitimate,clean_communication,LOW
+LEGIT_0497,Conference room B has been reserved for your team from 2 PM to 4 PM.,0,legitimate,clean_communication,LOW
+SCAM_0209,We can recover your lost crypto funds. Pay a small fee and get it all back! Reference ID: #3240.,1,scam,financial_fraud,HIGH
+SCAM_0280,I found your number. I love you and need your help. Please send gift cards. Reference ID: #6179.,1,scam,social_engineering,HIGH
+LEGIT_0320,Our annual company hackathon will begin next month. Register your team today. Note: ticket #502.,0,legitimate,clean_communication,LOW
+LEGIT_0393,Happy birthday! Enjoy a 15% discount on your next store visit this month. Note: ticket #655.,0,legitimate,clean_communication,LOW
+LEGIT_0119,Our annual company hackathon will begin next month. Register your team today. Note: ticket #734.,0,legitimate,clean_communication,LOW
+LEGIT_0093,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM. Note: ticket #302.",0,legitimate,clean_communication,LOW
+SCAM_0076,Mom I'm in trouble! I got arrested and need $500 in gift cards. Don't tell Dad! Reference ID: #4644.,1,scam,urgency_manipulation,HIGH
+SCAM_0201,The clock is ticking! Your exclusive discount disappears at midnight TONIGHT!,1,scam,phishing_time_pressure,CRITICAL
+SCAM_0418,ACT NOW! This offer expires in 2 hours. Click here or lose your chance FOREVER! Reference ID: #2758.,1,scam,fake_emergency,CRITICAL
+LEGIT_0365,Happy birthday! Enjoy a 15% discount on your next store visit this month. Note: ticket #162.,0,legitimate,clean_communication,LOW
+LEGIT_0228,Weekly project status report: All sprint deliverables are on track for Friday.,0,legitimate,clean_communication,LOW
+SCAM_0129,"You've won $1,000,000 in our lottery! But you must claim within 24 hours!",1,scam,phishing_time_pressure,CRITICAL
+SCAM_0456,Final warning: Your subscription ends tonight. Renew NOW or lose access! Reference ID: #7999.,1,scam,phishing_time_pressure,CRITICAL
+LEGIT_0182,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins.,0,legitimate,clean_communication,LOW
+SCAM_0137,⏰ COUNTDOWN: Only 2 hours left to claim your prize! Timer is ticking!,1,scam,malicious_url,HIGH
+SCAM_0285,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price!,1,scam,crypto_scam,HIGH
+LEGIT_0347,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday. Note: ticket #760.,0,legitimate,clean_communication,LOW
+LEGIT_0377,The library book you requested is ready for pickup at the main circulation desk. Note: ticket #159.,0,legitimate,clean_communication,LOW
+SCAM_0075,"Hi dear, I'm stranded in London after being robbed. Please send $200 via Western Union!",1,scam,financial_fraud,HIGH
+LEGIT_0148,Please find attached the minutes of our quarterly review meeting. Note: ticket #924.,0,legitimate,clean_communication,LOW
+SCAM_0013,Social Security Administration: Your SSN has been suspended. Call now!,1,scam,social_engineering,CRITICAL
+LEGIT_0180,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday. Note: ticket #570.,0,legitimate,clean_communication,LOW
+SCAM_0349,Your Amazon account has been compromised! Verify your identity in the next hour!,1,scam,malicious_url,CRITICAL
+SCAM_0462,"FREE money! Government stimulus program - claim your $2,500 before deadline. Reference ID: #8369.",1,scam,social_engineering,CRITICAL
+LEGIT_0112,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days. Note: ticket #528.,0,legitimate,clean_communication,LOW
+LEGIT_0185,HR update: Open enrollment for health insurance benefits starts next week. Note: ticket #765.,0,legitimate,clean_communication,LOW
+SCAM_0496,Final warning: Your subscription ends tonight. Renew NOW or lose access!,1,scam,fake_countdown,HIGH
+SCAM_0246,⏰ COUNTDOWN: Only 2 hours left to claim your prize! Timer is ticking!,1,scam,fake_countdown,HIGH
+SCAM_0181,Mom I'm in trouble! I got arrested and need $500 in gift cards. Don't tell Dad! Reference ID: #9327.,1,scam,financial_fraud,HIGH
+LEGIT_0175,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM.,0,legitimate,clean_communication,LOW
+SCAM_0166,PayPal security alert: Unusual activity detected. Confirm account NOW or it will be locked! Reference ID: #3870.,1,scam,urgency_manipulation,CRITICAL
+SCAM_0278,Your Amazon account has been compromised! Verify your identity in the next hour!,1,scam,financial_fraud,HIGH
+SCAM_0258,Google detected suspicious login! Verify your Google account in 15 minutes!,1,scam,phishing_time_pressure,CRITICAL
+LEGIT_0054,Your electricity bill of .20 is due in 15 days. Autopay is active.,0,legitimate,clean_communication,LOW
+LEGIT_0434,Weekly project status report: All sprint deliverables are on track for Friday. Note: ticket #270.,0,legitimate,clean_communication,LOW
+LEGIT_0465,Weekly project status report: All sprint deliverables are on track for Friday. Note: ticket #415.,0,legitimate,clean_communication,LOW
+SCAM_0149,Your Amazon account has been compromised! Verify your identity in the next hour!,1,scam,malicious_url,HIGH
+LEGIT_0078,The library book you requested is ready for pickup at the main circulation desk.,0,legitimate,clean_communication,LOW
+LEGIT_0039,Your flight booking is confirmed. Check-in opens 24 hours prior to departure.,0,legitimate,clean_communication,LOW
+SCAM_0112,URGENT: Your account will be suspended in 24 hours. Verify immediately.,1,scam,crypto_scam,CRITICAL
+LEGIT_0218,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+LEGIT_0173,Your flight booking is confirmed. Check-in opens 24 hours prior to departure. Note: ticket #606.,0,legitimate,clean_communication,LOW
+SCAM_0350,The clock is ticking! Your exclusive discount disappears at midnight TONIGHT!,1,scam,financial_fraud,HIGH
+LEGIT_0272,Weekly project status report: All sprint deliverables are on track for Friday. Note: ticket #270.,0,legitimate,clean_communication,LOW
+LEGIT_0046,The library book you requested is ready for pickup at the main circulation desk.,0,legitimate,clean_communication,LOW
+SCAM_0388,Bitcoin will SKYROCKET tomorrow! Insider tip - buy before it's too late! Reference ID: #7576.,1,scam,financial_fraud,HIGH
+SCAM_0071,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now!,1,scam,urgency_manipulation,HIGH
+LEGIT_0141,Our annual company hackathon will begin next month. Register your team today. Note: ticket #189.,0,legitimate,clean_communication,LOW
+SCAM_0360,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now! Reference ID: #3114.,1,scam,phishing_time_pressure,CRITICAL
+SCAM_0151,Bitcoin will SKYROCKET tomorrow! Insider tip - buy before it's too late! Reference ID: #5978.,1,scam,phishing_time_pressure,HIGH
+SCAM_0176,WARNING: Your Microsoft account will be closed in 12 hours. Click here to verify! Reference ID: #4920.,1,scam,urgency_manipulation,HIGH
+LEGIT_0071,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday. Note: ticket #612.,0,legitimate,clean_communication,LOW
+LEGIT_0080,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+SCAM_0439,ACT NOW! This offer expires in 2 hours. Click here or lose your chance FOREVER! Reference ID: #1742.,1,scam,financial_fraud,CRITICAL
+LEGIT_0223,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins. Note: ticket #408.,0,legitimate,clean_communication,LOW
+SCAM_0197,URGENT: Your account will be suspended in 24 hours. Verify immediately.,1,scam,urgency_manipulation,HIGH
+LEGIT_0302,Please find attached the minutes of our quarterly review meeting. Note: ticket #751.,0,legitimate,clean_communication,LOW
+SCAM_0416,"Hi dear, I'm stranded in London after being robbed. Please send $200 via Western Union! Reference ID: #1595.",1,scam,phishing_time_pressure,CRITICAL
+SCAM_0199,FLASH SALE: Investment property - 80% off market value. Offer ends in 6 hours! Reference ID: #3950.,1,scam,crypto_scam,HIGH
+LEGIT_0408,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM.,0,legitimate,clean_communication,LOW
+LEGIT_0284,Our annual company hackathon will begin next month. Register your team today.,0,legitimate,clean_communication,LOW
+SCAM_0089,Exclusive offer: 200% ROI guaranteed. Only 5 investors accepted. Apply today!,1,scam,fake_emergency,HIGH
+SCAM_0297,URGENT: Your account will be suspended in 24 hours. Verify immediately.,1,scam,social_engineering,HIGH
+LEGIT_0166,Happy birthday! Enjoy a 15% discount on your next store visit this month. Note: ticket #565.,0,legitimate,clean_communication,LOW
+LEGIT_0373,Happy birthday! Enjoy a 15% discount on your next store visit this month. Note: ticket #429.,0,legitimate,clean_communication,LOW
+SCAM_0474,Mom I'm in trouble! I got arrested and need $500 in gift cards. Don't tell Dad!,1,scam,financial_fraud,CRITICAL
+SCAM_0300,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price! Reference ID: #3147.,1,scam,urgency_manipulation,CRITICAL
+SCAM_0481,URGENT: Your account will be suspended in 24 hours. Verify immediately. Reference ID: #7739.,1,scam,urgency_manipulation,HIGH
+LEGIT_0279,Our annual company hackathon will begin next month. Register your team today.,0,legitimate,clean_communication,LOW
+SCAM_0025,Google detected suspicious login! Verify your Google account in 15 minutes!,1,scam,fake_countdown,HIGH
+SCAM_0272,Double your money in 3 days! Risk-free investment opportunity. Act fast! Reference ID: #6928.,1,scam,malicious_url,HIGH
+LEGIT_0056,HR update: Open enrollment for health insurance benefits starts next week.,0,legitimate,clean_communication,LOW
+LEGIT_0254,Please find attached the minutes of our quarterly review meeting.,0,legitimate,clean_communication,LOW
+SCAM_0069,I found your number. I love you and need your help. Please send gift cards. Reference ID: #2832.,1,scam,crypto_scam,HIGH
+SCAM_0423,This is the FBI. You are under investigation. Cooperate now or face consequences. Reference ID: #2421.,1,scam,crypto_scam,CRITICAL
+SCAM_0326,Google detected suspicious login! Verify your Google account in 15 minutes!,1,scam,phishing_time_pressure,CRITICAL
+LEGIT_0169,HR update: Open enrollment for health insurance benefits starts next week.,0,legitimate,clean_communication,LOW
+LEGIT_0440,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+SCAM_0064,WARNING: Your Microsoft account will be closed in 12 hours. Click here to verify! Reference ID: #3546.,1,scam,fake_countdown,CRITICAL
+LEGIT_0212,Your flight booking is confirmed. Check-in opens 24 hours prior to departure. Note: ticket #553.,0,legitimate,clean_communication,LOW
+LEGIT_0248,The library book you requested is ready for pickup at the main circulation desk.,0,legitimate,clean_communication,LOW
+LEGIT_0125,HR update: Open enrollment for health insurance benefits starts next week. Note: ticket #600.,0,legitimate,clean_communication,LOW
+LEGIT_0060,Your monthly bank statement is now available for download in your online portal. Note: ticket #773.,0,legitimate,clean_communication,LOW
+LEGIT_0193,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+LEGIT_0478,The library book you requested is ready for pickup at the main circulation desk. Note: ticket #666.,0,legitimate,clean_communication,LOW
+LEGIT_0031,Our annual company hackathon will begin next month. Register your team today.,0,legitimate,clean_communication,LOW
+SCAM_0235,I found your number. I love you and need your help. Please send gift cards. Reference ID: #2786.,1,scam,social_engineering,CRITICAL
+LEGIT_0342,Weekly project status report: All sprint deliverables are on track for Friday.,0,legitimate,clean_communication,LOW
+SCAM_0202,"You've won $1,000,000 in our lottery! But you must claim within 24 hours! Reference ID: #8622.",1,scam,fake_emergency,CRITICAL
+SCAM_0062,I found your number. I love you and need your help. Please send gift cards. Reference ID: #9666.,1,scam,fake_emergency,HIGH
+SCAM_0097,This is the FBI. You are under investigation. Cooperate now or face consequences.,1,scam,financial_fraud,HIGH
+LEGIT_0430,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM.",0,legitimate,clean_communication,LOW
+LEGIT_0447,Happy birthday! Enjoy a 15% discount on your next store visit this month. Note: ticket #446.,0,legitimate,clean_communication,LOW
+SCAM_0131,Your bank account has been frozen. Call this number NOW to unlock it! Reference ID: #2419.,1,scam,financial_fraud,CRITICAL
+SCAM_0435,WARNING: Your Microsoft account will be closed in 12 hours. Click here to verify! Reference ID: #9008.,1,scam,financial_fraud,HIGH
+SCAM_0210,LAST CHANCE! Only 3 spots left. Must respond in the next 30 minutes! Reference ID: #1546.,1,scam,fake_emergency,CRITICAL
+SCAM_0072,Netflix subscription will be cancelled. Update payment details immediately! Reference ID: #2684.,1,scam,financial_fraud,CRITICAL
+SCAM_0253,We can recover your lost crypto funds. Pay a small fee and get it all back! Reference ID: #1430.,1,scam,crypto_scam,CRITICAL
+LEGIT_0356,Happy birthday! Enjoy a 15% discount on your next store visit this month. Note: ticket #941.,0,legitimate,clean_communication,LOW
+SCAM_0495,Mom I'm in trouble! I got arrested and need $500 in gift cards. Don't tell Dad! Reference ID: #2284.,1,scam,phishing_time_pressure,CRITICAL
+LEGIT_0451,Happy birthday! Enjoy a 15% discount on your next store visit this month.,0,legitimate,clean_communication,LOW
+SCAM_0192,⏰ COUNTDOWN: Only 2 hours left to claim your prize! Timer is ticking!,1,scam,fake_emergency,CRITICAL
+SCAM_0447,Mom I'm in trouble! I got arrested and need $500 in gift cards. Don't tell Dad!,1,scam,financial_fraud,CRITICAL
+LEGIT_0260,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM.",0,legitimate,clean_communication,LOW
+SCAM_0150,This is the FBI. You are under investigation. Cooperate now or face consequences.,1,scam,malicious_url,HIGH
+SCAM_0325,Netflix subscription will be cancelled. Update payment details immediately!,1,scam,fake_countdown,HIGH
+LEGIT_0178,Our annual company hackathon will begin next month. Register your team today. Note: ticket #880.,0,legitimate,clean_communication,LOW
+LEGIT_0121,Weekly project status report: All sprint deliverables are on track for Friday.,0,legitimate,clean_communication,LOW
+SCAM_0002,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now! Reference ID: #9935.,1,scam,fake_countdown,HIGH
+LEGIT_0053,Weekly project status report: All sprint deliverables are on track for Friday. Note: ticket #590.,0,legitimate,clean_communication,LOW
+SCAM_0338,Apple ID suspended: Verify your information within 24 hours or lose your account!,1,scam,fake_emergency,CRITICAL
+LEGIT_0491,Your flight booking is confirmed. Check-in opens 24 hours prior to departure.,0,legitimate,clean_communication,LOW
+LEGIT_0269,HR update: Open enrollment for health insurance benefits starts next week. Note: ticket #742.,0,legitimate,clean_communication,LOW
+LEGIT_0143,The library book you requested is ready for pickup at the main circulation desk. Note: ticket #314.,0,legitimate,clean_communication,LOW
+LEGIT_0008,Your flight booking is confirmed. Check-in opens 24 hours prior to departure.,0,legitimate,clean_communication,LOW
+LEGIT_0332,The library book you requested is ready for pickup at the main circulation desk. Note: ticket #946.,0,legitimate,clean_communication,LOW
+SCAM_0243,I found your number. I love you and need your help. Please send gift cards.,1,scam,financial_fraud,CRITICAL
+LEGIT_0237,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+SCAM_0318,FLASH SALE: Investment property - 80% off market value. Offer ends in 6 hours!,1,scam,fake_emergency,HIGH
+SCAM_0287,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price! Reference ID: #8381.,1,scam,phishing_time_pressure,HIGH
+LEGIT_0117,Conference room B has been reserved for your team from 2 PM to 4 PM.,0,legitimate,clean_communication,LOW
+SCAM_0233,Your bank account has been frozen. Call this number NOW to unlock it!,1,scam,urgency_manipulation,HIGH
+LEGIT_0011,Conference room B has been reserved for your team from 2 PM to 4 PM.,0,legitimate,clean_communication,LOW
+LEGIT_0205,Your flight booking is confirmed. Check-in opens 24 hours prior to departure. Note: ticket #871.,0,legitimate,clean_communication,LOW
+SCAM_0187,We can recover your lost crypto funds. Pay a small fee and get it all back!,1,scam,crypto_scam,CRITICAL
+LEGIT_0027,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+LEGIT_0268,Conference room B has been reserved for your team from 2 PM to 4 PM.,0,legitimate,clean_communication,LOW
+LEGIT_0224,Please find attached the minutes of our quarterly review meeting. Note: ticket #621.,0,legitimate,clean_communication,LOW
+SCAM_0464,LAST CHANCE! Only 3 spots left. Must respond in the next 30 minutes!,1,scam,fake_countdown,HIGH
+LEGIT_0499,Weekly project status report: All sprint deliverables are on track for Friday. Note: ticket #112.,0,legitimate,clean_communication,LOW
+LEGIT_0436,Happy birthday! Enjoy a 15% discount on your next store visit this month.,0,legitimate,clean_communication,LOW
+SCAM_0261,The clock is ticking! Your exclusive discount disappears at midnight TONIGHT!,1,scam,malicious_url,HIGH
+SCAM_0156,Double your money in 3 days! Risk-free investment opportunity. Act fast!,1,scam,financial_fraud,HIGH
+SCAM_0327,Exclusive offer: 200% ROI guaranteed. Only 5 investors accepted. Apply today! Reference ID: #8840.,1,scam,malicious_url,HIGH
+SCAM_0444,Netflix subscription will be cancelled. Update payment details immediately!,1,scam,fake_countdown,CRITICAL
+LEGIT_0304,Our annual company hackathon will begin next month. Register your team today.,0,legitimate,clean_communication,LOW
+LEGIT_0271,Conference room B has been reserved for your team from 2 PM to 4 PM.,0,legitimate,clean_communication,LOW
+SCAM_0001,WARNING: Your Microsoft account will be closed in 12 hours. Click here to verify! Reference ID: #5012.,1,scam,urgency_manipulation,HIGH
+LEGIT_0007,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+LEGIT_0079,Weekly project status report: All sprint deliverables are on track for Friday.,0,legitimate,clean_communication,LOW
+LEGIT_0295,Your electricity bill of .20 is due in 15 days. Autopay is active. Note: ticket #857.,0,legitimate,clean_communication,LOW
+LEGIT_0336,Please find attached the minutes of our quarterly review meeting. Note: ticket #505.,0,legitimate,clean_communication,LOW
+LEGIT_0455,Conference room B has been reserved for your team from 2 PM to 4 PM.,0,legitimate,clean_communication,LOW
+SCAM_0053,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price!,1,scam,phishing_time_pressure,HIGH
+LEGIT_0406,Our annual company hackathon will begin next month. Register your team today. Note: ticket #778.,0,legitimate,clean_communication,LOW
+SCAM_0335,The clock is ticking! Your exclusive discount disappears at midnight TONIGHT!,1,scam,malicious_url,CRITICAL
+LEGIT_0021,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+LEGIT_0144,The library book you requested is ready for pickup at the main circulation desk. Note: ticket #805.,0,legitimate,clean_communication,LOW
+SCAM_0061,HURRY! Limited time offer expires at midnight. Don't miss out!,1,scam,financial_fraud,HIGH
+SCAM_0162,Apple ID suspended: Verify your information within 24 hours or lose your account!,1,scam,malicious_url,CRITICAL
+LEGIT_0219,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+LEGIT_0381,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+SCAM_0046,FLASH SALE: Investment property - 80% off market value. Offer ends in 6 hours!,1,scam,fake_countdown,HIGH
+LEGIT_0114,Your flight booking is confirmed. Check-in opens 24 hours prior to departure.,0,legitimate,clean_communication,LOW
+SCAM_0294,Netflix subscription will be cancelled. Update payment details immediately! Reference ID: #7421.,1,scam,fake_emergency,HIGH
+LEGIT_0221,Your electricity bill of .20 is due in 15 days. Autopay is active.,0,legitimate,clean_communication,LOW
+SCAM_0236,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price! Reference ID: #1710.,1,scam,financial_fraud,CRITICAL
+LEGIT_0126,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+LEGIT_0076,HR update: Open enrollment for health insurance benefits starts next week.,0,legitimate,clean_communication,LOW
+LEGIT_0067,Please find attached the minutes of our quarterly review meeting. Note: ticket #631.,0,legitimate,clean_communication,LOW
+SCAM_0194,Your bank account has been frozen. Call this number NOW to unlock it! Reference ID: #1588.,1,scam,malicious_url,HIGH
+LEGIT_0496,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+LEGIT_0312,Conference room B has been reserved for your team from 2 PM to 4 PM.,0,legitimate,clean_communication,LOW
+SCAM_0452,This is the FBI. You are under investigation. Cooperate now or face consequences.,1,scam,malicious_url,HIGH
+SCAM_0260,You have been selected! But you must respond within the next 10 minutes.,1,scam,fake_emergency,CRITICAL
+SCAM_0026,"You've won $1,000,000 in our lottery! But you must claim within 24 hours! Reference ID: #5315.",1,scam,urgency_manipulation,HIGH
+SCAM_0143,"Our secret trading algorithm made $10,000 in just 2 hours. Join now! Reference ID: #5530.",1,scam,financial_fraud,CRITICAL
+SCAM_0170,"Hi dear, I'm stranded in London after being robbed. Please send $200 via Western Union!",1,scam,malicious_url,CRITICAL
+SCAM_0124,"IRS URGENT: You owe $3,400 in back taxes. Pay immediately to avoid arrest warrant!",1,scam,crypto_scam,HIGH
+LEGIT_0063,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday. Note: ticket #509.,0,legitimate,clean_communication,LOW
+SCAM_0252,Netflix subscription will be cancelled. Update payment details immediately!,1,scam,social_engineering,CRITICAL
+LEGIT_0110,Please find attached the minutes of our quarterly review meeting.,0,legitimate,clean_communication,LOW
+LEGIT_0105,Our annual company hackathon will begin next month. Register your team today. Note: ticket #732.,0,legitimate,clean_communication,LOW
+SCAM_0085,ACT NOW! This offer expires in 2 hours. Click here or lose your chance FOREVER!,1,scam,financial_fraud,HIGH
+SCAM_0254,URGENT: Your account will be suspended in 24 hours. Verify immediately.,1,scam,phishing_time_pressure,CRITICAL
+LEGIT_0057,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM. Note: ticket #468.",0,legitimate,clean_communication,LOW
+LEGIT_0090,The library book you requested is ready for pickup at the main circulation desk.,0,legitimate,clean_communication,LOW
+SCAM_0081,URGENT: Your account will be suspended in 24 hours. Verify immediately. Reference ID: #5279.,1,scam,fake_countdown,HIGH
+LEGIT_0176,Your electricity bill of .20 is due in 15 days. Autopay is active.,0,legitimate,clean_communication,LOW
+SCAM_0006,URGENT: Your grandson is in hospital! Send money immediately to help him!,1,scam,social_engineering,HIGH
+SCAM_0028,Bitcoin will SKYROCKET tomorrow! Insider tip - buy before it's too late! Reference ID: #9837.,1,scam,social_engineering,HIGH
+LEGIT_0181,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM.",0,legitimate,clean_communication,LOW
+SCAM_0286,I found your number. I love you and need your help. Please send gift cards.,1,scam,financial_fraud,CRITICAL
+LEGIT_0303,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins. Note: ticket #109.,0,legitimate,clean_communication,LOW
+LEGIT_0481,Conference room B has been reserved for your team from 2 PM to 4 PM. Note: ticket #586.,0,legitimate,clean_communication,LOW
+LEGIT_0102,Conference room B has been reserved for your team from 2 PM to 4 PM. Note: ticket #420.,0,legitimate,clean_communication,LOW
+LEGIT_0386,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins. Note: ticket #277.,0,legitimate,clean_communication,LOW
+LEGIT_0421,Your electricity bill of .20 is due in 15 days. Autopay is active.,0,legitimate,clean_communication,LOW
+SCAM_0347,FLASH SALE: Investment property - 80% off market value. Offer ends in 6 hours!,1,scam,fake_countdown,HIGH
+LEGIT_0216,HR update: Open enrollment for health insurance benefits starts next week.,0,legitimate,clean_communication,LOW
+LEGIT_0323,Please find attached the minutes of our quarterly review meeting.,0,legitimate,clean_communication,LOW
+LEGIT_0270,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+SCAM_0128,"Hi dear, I'm stranded in London after being robbed. Please send $200 via Western Union!",1,scam,malicious_url,CRITICAL
+SCAM_0477,Exclusive offer: 200% ROI guaranteed. Only 5 investors accepted. Apply today! Reference ID: #2217.,1,scam,urgency_manipulation,HIGH
+LEGIT_0058,HR update: Open enrollment for health insurance benefits starts next week. Note: ticket #649.,0,legitimate,clean_communication,LOW
+SCAM_0222,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now!,1,scam,crypto_scam,CRITICAL
+SCAM_0049,Final warning: Your subscription ends tonight. Renew NOW or lose access!,1,scam,phishing_time_pressure,CRITICAL
+SCAM_0317,Limited time: Act in the next 5 minutes or this deal is gone forever!,1,scam,crypto_scam,CRITICAL
+LEGIT_0355,Weekly project status report: All sprint deliverables are on track for Friday.,0,legitimate,clean_communication,LOW
+LEGIT_0145,Our annual company hackathon will begin next month. Register your team today. Note: ticket #724.,0,legitimate,clean_communication,LOW
+LEGIT_0407,Your flight booking is confirmed. Check-in opens 24 hours prior to departure. Note: ticket #444.,0,legitimate,clean_communication,LOW
+LEGIT_0257,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday. Note: ticket #858.,0,legitimate,clean_communication,LOW
+LEGIT_0108,Your electricity bill of .20 is due in 15 days. Autopay is active. Note: ticket #788.,0,legitimate,clean_communication,LOW
+SCAM_0448,Bitcoin will SKYROCKET tomorrow! Insider tip - buy before it's too late!,1,scam,fake_emergency,HIGH
+SCAM_0343,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now!,1,scam,fake_countdown,CRITICAL
+SCAM_0115,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now!,1,scam,malicious_url,CRITICAL
+LEGIT_0423,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday. Note: ticket #608.,0,legitimate,clean_communication,LOW
+SCAM_0371,"You've won $1,000,000 in our lottery! But you must claim within 24 hours!",1,scam,financial_fraud,HIGH
+SCAM_0296,Limited time: Act in the next 5 minutes or this deal is gone forever! Reference ID: #7937.,1,scam,fake_countdown,CRITICAL
+LEGIT_0215,The library book you requested is ready for pickup at the main circulation desk.,0,legitimate,clean_communication,LOW
+LEGIT_0138,HR update: Open enrollment for health insurance benefits starts next week. Note: ticket #869.,0,legitimate,clean_communication,LOW
+SCAM_0269,URGENT: Your grandson is in hospital! Send money immediately to help him!,1,scam,urgency_manipulation,HIGH
+LEGIT_0012,Your electricity bill of .20 is due in 15 days. Autopay is active. Note: ticket #984.,0,legitimate,clean_communication,LOW
+LEGIT_0290,Your flight booking is confirmed. Check-in opens 24 hours prior to departure.,0,legitimate,clean_communication,LOW
+SCAM_0361,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price! Reference ID: #9488.,1,scam,urgency_manipulation,HIGH
+SCAM_0007,Google detected suspicious login! Verify your Google account in 15 minutes!,1,scam,fake_countdown,HIGH
+SCAM_0161,Bitcoin will SKYROCKET tomorrow! Insider tip - buy before it's too late!,1,scam,fake_countdown,CRITICAL
+SCAM_0336,You have been selected! But you must respond within the next 10 minutes.,1,scam,crypto_scam,HIGH
+SCAM_0134,"FREE money! Government stimulus program - claim your $2,500 before deadline. Reference ID: #6576.",1,scam,social_engineering,CRITICAL
+SCAM_0033,Limited time: Act in the next 5 minutes or this deal is gone forever! Reference ID: #9835.,1,scam,crypto_scam,HIGH
+SCAM_0024,ACT NOW! This offer expires in 2 hours. Click here or lose your chance FOREVER! Reference ID: #9797.,1,scam,fake_countdown,CRITICAL
+SCAM_0226,Netflix subscription will be cancelled. Update payment details immediately!,1,scam,urgency_manipulation,HIGH
+LEGIT_0087,Conference room B has been reserved for your team from 2 PM to 4 PM.,0,legitimate,clean_communication,LOW
+LEGIT_0094,Weekly project status report: All sprint deliverables are on track for Friday. Note: ticket #498.,0,legitimate,clean_communication,LOW
+LEGIT_0005,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM. Note: ticket #555.",0,legitimate,clean_communication,LOW
+SCAM_0250,Apple ID suspended: Verify your information within 24 hours or lose your account!,1,scam,fake_emergency,HIGH
+SCAM_0472,We can recover your lost crypto funds. Pay a small fee and get it all back!,1,scam,phishing_time_pressure,CRITICAL
+LEGIT_0059,Your electricity bill of .20 is due in 15 days. Autopay is active. Note: ticket #187.,0,legitimate,clean_communication,LOW
+LEGIT_0133,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+LEGIT_0360,Please find attached the minutes of our quarterly review meeting. Note: ticket #381.,0,legitimate,clean_communication,LOW
+SCAM_0373,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now! Reference ID: #2739.,1,scam,social_engineering,CRITICAL
+LEGIT_0498,Our annual company hackathon will begin next month. Register your team today. Note: ticket #632.,0,legitimate,clean_communication,LOW
+SCAM_0451,I found your number. I love you and need your help. Please send gift cards.,1,scam,urgency_manipulation,HIGH
+LEGIT_0238,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+SCAM_0442,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now!,1,scam,crypto_scam,CRITICAL
+LEGIT_0368,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday. Note: ticket #638.,0,legitimate,clean_communication,LOW
+LEGIT_0135,Conference room B has been reserved for your team from 2 PM to 4 PM. Note: ticket #142.,0,legitimate,clean_communication,LOW
+SCAM_0184,The clock is ticking! Your exclusive discount disappears at midnight TONIGHT!,1,scam,phishing_time_pressure,CRITICAL
+SCAM_0399,"Hi dear, I'm stranded in London after being robbed. Please send $200 via Western Union! Reference ID: #2020.",1,scam,malicious_url,HIGH
+LEGIT_0249,Our annual company hackathon will begin next month. Register your team today.,0,legitimate,clean_communication,LOW
+LEGIT_0316,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins.,0,legitimate,clean_communication,LOW
+LEGIT_0050,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+SCAM_0225,I found your number. I love you and need your help. Please send gift cards. Reference ID: #2627.,1,scam,financial_fraud,CRITICAL
+SCAM_0348,The clock is ticking! Your exclusive discount disappears at midnight TONIGHT! Reference ID: #2929.,1,scam,crypto_scam,CRITICAL
+LEGIT_0348,Your monthly bank statement is now available for download in your online portal. Note: ticket #365.,0,legitimate,clean_communication,LOW
+LEGIT_0291,Weekly project status report: All sprint deliverables are on track for Friday. Note: ticket #892.,0,legitimate,clean_communication,LOW
+LEGIT_0435,Happy birthday! Enjoy a 15% discount on your next store visit this month.,0,legitimate,clean_communication,LOW
+LEGIT_0064,The library book you requested is ready for pickup at the main circulation desk.,0,legitimate,clean_communication,LOW
+LEGIT_0129,Please find attached the minutes of our quarterly review meeting. Note: ticket #272.,0,legitimate,clean_communication,LOW
+SCAM_0214,Apple ID suspended: Verify your information within 24 hours or lose your account! Reference ID: #8673.,1,scam,social_engineering,HIGH
+SCAM_0054,Exclusive offer: 200% ROI guaranteed. Only 5 investors accepted. Apply today! Reference ID: #4853.,1,scam,fake_countdown,CRITICAL
+SCAM_0082,Your Amazon account has been compromised! Verify your identity in the next hour!,1,scam,urgency_manipulation,CRITICAL
+SCAM_0433,HURRY! Limited time offer expires at midnight. Don't miss out!,1,scam,fake_countdown,HIGH
+LEGIT_0315,Your monthly bank statement is now available for download in your online portal. Note: ticket #752.,0,legitimate,clean_communication,LOW
+SCAM_0031,You have been selected! But you must respond within the next 10 minutes. Reference ID: #9727.,1,scam,malicious_url,HIGH
+SCAM_0372,Your bank account has been frozen. Call this number NOW to unlock it! Reference ID: #6658.,1,scam,social_engineering,CRITICAL
+SCAM_0357,HURRY! Limited time offer expires at midnight. Don't miss out!,1,scam,fake_emergency,CRITICAL
+LEGIT_0398,Our annual company hackathon will begin next month. Register your team today. Note: ticket #306.,0,legitimate,clean_communication,LOW
+LEGIT_0477,Conference room B has been reserved for your team from 2 PM to 4 PM.,0,legitimate,clean_communication,LOW
+SCAM_0086,Google detected suspicious login! Verify your Google account in 15 minutes! Reference ID: #3041.,1,scam,social_engineering,CRITICAL
+SCAM_0409,"Our secret trading algorithm made $10,000 in just 2 hours. Join now! Reference ID: #5450.",1,scam,fake_emergency,HIGH
+LEGIT_0424,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+LEGIT_0280,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+SCAM_0216,You have been selected! But you must respond within the next 10 minutes.,1,scam,crypto_scam,HIGH
+LEGIT_0137,Please find attached the minutes of our quarterly review meeting. Note: ticket #204.,0,legitimate,clean_communication,LOW
+SCAM_0490,Google detected suspicious login! Verify your Google account in 15 minutes! Reference ID: #1697.,1,scam,fake_countdown,HIGH
+SCAM_0395,Your Amazon account has been compromised! Verify your identity in the next hour! Reference ID: #8871.,1,scam,financial_fraud,HIGH
+SCAM_0279,HURRY! Limited time offer expires at midnight. Don't miss out! Reference ID: #9095.,1,scam,phishing_time_pressure,CRITICAL
+LEGIT_0416,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM. Note: ticket #401.,0,legitimate,clean_communication,LOW
+SCAM_0410,IMMEDIATE ACTION REQUIRED: Your payment is overdue. Pay now to avoid legal action!,1,scam,financial_fraud,HIGH
+SCAM_0411,We can recover your lost crypto funds. Pay a small fee and get it all back!,1,scam,urgency_manipulation,CRITICAL
+LEGIT_0074,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM.,0,legitimate,clean_communication,LOW
+LEGIT_0251,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday. Note: ticket #417.,0,legitimate,clean_communication,LOW
+LEGIT_0122,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins.,0,legitimate,clean_communication,LOW
+LEGIT_0363,Your electricity bill of .20 is due in 15 days. Autopay is active. Note: ticket #762.,0,legitimate,clean_communication,LOW
+SCAM_0096,"Hi dear, I'm stranded in London after being robbed. Please send $200 via Western Union! Reference ID: #7291.",1,scam,financial_fraud,CRITICAL
+SCAM_0275,Google detected suspicious login! Verify your Google account in 15 minutes!,1,scam,financial_fraud,HIGH
+SCAM_0449,LAST CHANCE! Only 3 spots left. Must respond in the next 30 minutes! Reference ID: #1256.,1,scam,crypto_scam,HIGH
+LEGIT_0066,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM.",0,legitimate,clean_communication,LOW
+SCAM_0337,Apple ID suspended: Verify your information within 24 hours or lose your account!,1,scam,social_engineering,CRITICAL
+LEGIT_0236,Weekly project status report: All sprint deliverables are on track for Friday. Note: ticket #888.,0,legitimate,clean_communication,LOW
+SCAM_0142,"Our secret trading algorithm made $10,000 in just 2 hours. Join now!",1,scam,social_engineering,HIGH
+LEGIT_0250,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday. Note: ticket #765.,0,legitimate,clean_communication,LOW
+LEGIT_0132,Conference room B has been reserved for your team from 2 PM to 4 PM. Note: ticket #686.,0,legitimate,clean_communication,LOW
+SCAM_0098,IMMEDIATE ACTION REQUIRED: Your payment is overdue. Pay now to avoid legal action!,1,scam,crypto_scam,CRITICAL
+LEGIT_0096,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM. Note: ticket #928.,0,legitimate,clean_communication,LOW
+SCAM_0437,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price!,1,scam,crypto_scam,HIGH
+LEGIT_0266,Happy birthday! Enjoy a 15% discount on your next store visit this month.,0,legitimate,clean_communication,LOW
+SCAM_0369,FLASH SALE: Investment property - 80% off market value. Offer ends in 6 hours!,1,scam,crypto_scam,HIGH
+LEGIT_0164,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+LEGIT_0062,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday. Note: ticket #676.,0,legitimate,clean_communication,LOW
+SCAM_0179,Apple ID suspended: Verify your information within 24 hours or lose your account!,1,scam,fake_emergency,CRITICAL
+LEGIT_0487,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+LEGIT_0378,The library book you requested is ready for pickup at the main circulation desk. Note: ticket #642.,0,legitimate,clean_communication,LOW
+LEGIT_0371,The library book you requested is ready for pickup at the main circulation desk. Note: ticket #591.,0,legitimate,clean_communication,LOW
+LEGIT_0473,Please find attached the minutes of our quarterly review meeting. Note: ticket #677.,0,legitimate,clean_communication,LOW
+SCAM_0304,FLASH SALE: Investment property - 80% off market value. Offer ends in 6 hours! Reference ID: #8684.,1,scam,fake_emergency,HIGH
+LEGIT_0433,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM.",0,legitimate,clean_communication,LOW
+SCAM_0237,"You've won $1,000,000 in our lottery! But you must claim within 24 hours!",1,scam,urgency_manipulation,CRITICAL
+SCAM_0263,Apple ID suspended: Verify your information within 24 hours or lose your account! Reference ID: #6053.,1,scam,malicious_url,HIGH
+LEGIT_0405,Conference room B has been reserved for your team from 2 PM to 4 PM. Note: ticket #174.,0,legitimate,clean_communication,LOW
+SCAM_0077,"You've won $1,000,000 in our lottery! But you must claim within 24 hours!",1,scam,social_engineering,HIGH
+LEGIT_0484,Happy birthday! Enjoy a 15% discount on your next store visit this month. Note: ticket #135.,0,legitimate,clean_communication,LOW
+LEGIT_0349,Happy birthday! Enjoy a 15% discount on your next store visit this month. Note: ticket #122.,0,legitimate,clean_communication,LOW
+SCAM_0153,Limited time: Act in the next 5 minutes or this deal is gone forever!,1,scam,crypto_scam,CRITICAL
+LEGIT_0006,Our annual company hackathon will begin next month. Register your team today. Note: ticket #204.,0,legitimate,clean_communication,LOW
+SCAM_0114,This is the FBI. You are under investigation. Cooperate now or face consequences.,1,scam,urgency_manipulation,CRITICAL
+LEGIT_0376,Please find attached the minutes of our quarterly review meeting.,0,legitimate,clean_communication,LOW
+SCAM_0014,HURRY! Limited time offer expires at midnight. Don't miss out! Reference ID: #5010.,1,scam,phishing_time_pressure,HIGH
+SCAM_0003,URGENT: Your grandson is in hospital! Send money immediately to help him!,1,scam,urgency_manipulation,HIGH
+SCAM_0241,Mom I'm in trouble! I got arrested and need $500 in gift cards. Don't tell Dad!,1,scam,fake_emergency,CRITICAL
+SCAM_0339,Double your money in 3 days! Risk-free investment opportunity. Act fast!,1,scam,malicious_url,HIGH
+SCAM_0493,URGENT: Your account will be suspended in 24 hours. Verify immediately. Reference ID: #7525.,1,scam,financial_fraud,HIGH
+SCAM_0213,Limited time: Act in the next 5 minutes or this deal is gone forever! Reference ID: #5210.,1,scam,fake_emergency,CRITICAL
+LEGIT_0009,Conference room B has been reserved for your team from 2 PM to 4 PM. Note: ticket #205.,0,legitimate,clean_communication,LOW
+SCAM_0041,⏰ COUNTDOWN: Only 2 hours left to claim your prize! Timer is ticking!,1,scam,crypto_scam,HIGH
+SCAM_0165,URGENT: Your account will be suspended in 24 hours. Verify immediately.,1,scam,fake_countdown,HIGH
+LEGIT_0258,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+LEGIT_0240,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM. Note: ticket #507.",0,legitimate,clean_communication,LOW
+SCAM_0367,LAST CHANCE! Only 3 spots left. Must respond in the next 30 minutes! Reference ID: #7825.,1,scam,fake_emergency,HIGH
+SCAM_0207,This is the FBI. You are under investigation. Cooperate now or face consequences.,1,scam,fake_emergency,HIGH
+LEGIT_0500,The library book you requested is ready for pickup at the main circulation desk. Note: ticket #701.,0,legitimate,clean_communication,LOW
+SCAM_0270,Your bank account has been frozen. Call this number NOW to unlock it! Reference ID: #7843.,1,scam,crypto_scam,CRITICAL
+LEGIT_0153,Conference room B has been reserved for your team from 2 PM to 4 PM. Note: ticket #795.,0,legitimate,clean_communication,LOW
+LEGIT_0375,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM.",0,legitimate,clean_communication,LOW
+LEGIT_0409,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days. Note: ticket #547.,0,legitimate,clean_communication,LOW
+LEGIT_0485,Conference room B has been reserved for your team from 2 PM to 4 PM. Note: ticket #629.,0,legitimate,clean_communication,LOW
+SCAM_0117,Google detected suspicious login! Verify your Google account in 15 minutes!,1,scam,crypto_scam,CRITICAL
+LEGIT_0289,Please find attached the minutes of our quarterly review meeting. Note: ticket #147.,0,legitimate,clean_communication,LOW
+LEGIT_0210,Our annual company hackathon will begin next month. Register your team today. Note: ticket #743.,0,legitimate,clean_communication,LOW
+LEGIT_0296,Your electricity bill of .20 is due in 15 days. Autopay is active.,0,legitimate,clean_communication,LOW
+SCAM_0108,"FREE money! Government stimulus program - claim your $2,500 before deadline.",1,scam,crypto_scam,HIGH
+LEGIT_0256,Your electricity bill of .20 is due in 15 days. Autopay is active. Note: ticket #416.,0,legitimate,clean_communication,LOW
+LEGIT_0191,Your flight booking is confirmed. Check-in opens 24 hours prior to departure. Note: ticket #843.,0,legitimate,clean_communication,LOW
+SCAM_0277,Netflix subscription will be cancelled. Update payment details immediately!,1,scam,phishing_time_pressure,HIGH
+LEGIT_0128,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM.,0,legitimate,clean_communication,LOW
+LEGIT_0482,Your electricity bill of .20 is due in 15 days. Autopay is active. Note: ticket #587.,0,legitimate,clean_communication,LOW
+LEGIT_0217,Your flight booking is confirmed. Check-in opens 24 hours prior to departure.,0,legitimate,clean_communication,LOW
+SCAM_0309,PayPal security alert: Unusual activity detected. Confirm account NOW or it will be locked! Reference ID: #3414.,1,scam,malicious_url,CRITICAL
+LEGIT_0327,Weekly project status report: All sprint deliverables are on track for Friday.,0,legitimate,clean_communication,LOW
+SCAM_0211,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now! Reference ID: #6352.,1,scam,fake_countdown,CRITICAL
+SCAM_0157,Double your money in 3 days! Risk-free investment opportunity. Act fast!,1,scam,urgency_manipulation,CRITICAL
+LEGIT_0326,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+LEGIT_0307,Please find attached the minutes of our quarterly review meeting. Note: ticket #343.,0,legitimate,clean_communication,LOW
+LEGIT_0061,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+LEGIT_0107,The library book you requested is ready for pickup at the main circulation desk.,0,legitimate,clean_communication,LOW
+SCAM_0390,⏰ COUNTDOWN: Only 2 hours left to claim your prize! Timer is ticking!,1,scam,malicious_url,HIGH
+SCAM_0455,Limited time: Act in the next 5 minutes or this deal is gone forever!,1,scam,financial_fraud,CRITICAL
+LEGIT_0418,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM. Note: ticket #686.",0,legitimate,clean_communication,LOW
+SCAM_0119,Netflix subscription will be cancelled. Update payment details immediately! Reference ID: #1659.,1,scam,financial_fraud,HIGH
+LEGIT_0432,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM. Note: ticket #837.,0,legitimate,clean_communication,LOW
+LEGIT_0331,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+LEGIT_0329,Please find attached the minutes of our quarterly review meeting.,0,legitimate,clean_communication,LOW
+LEGIT_0357,HR update: Open enrollment for health insurance benefits starts next week.,0,legitimate,clean_communication,LOW
+SCAM_0050,Your Amazon account has been compromised! Verify your identity in the next hour!,1,scam,malicious_url,CRITICAL
+LEGIT_0243,Your flight booking is confirmed. Check-in opens 24 hours prior to departure. Note: ticket #184.,0,legitimate,clean_communication,LOW
+SCAM_0262,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price!,1,scam,fake_countdown,HIGH
+SCAM_0385,Apple ID suspended: Verify your information within 24 hours or lose your account!,1,scam,fake_countdown,CRITICAL
+LEGIT_0155,The library book you requested is ready for pickup at the main circulation desk. Note: ticket #160.,0,legitimate,clean_communication,LOW
+SCAM_0376,Mom I'm in trouble! I got arrested and need $500 in gift cards. Don't tell Dad!,1,scam,crypto_scam,HIGH
+LEGIT_0367,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+SCAM_0174,The clock is ticking! Your exclusive discount disappears at midnight TONIGHT! Reference ID: #4335.,1,scam,malicious_url,CRITICAL
+LEGIT_0017,Your electricity bill of .20 is due in 15 days. Autopay is active. Note: ticket #801.,0,legitimate,clean_communication,LOW
+LEGIT_0104,Your flight booking is confirmed. Check-in opens 24 hours prior to departure. Note: ticket #456.,0,legitimate,clean_communication,LOW
+SCAM_0023,Mom I'm in trouble! I got arrested and need $500 in gift cards. Don't tell Dad! Reference ID: #8668.,1,scam,crypto_scam,CRITICAL
+LEGIT_0412,HR update: Open enrollment for health insurance benefits starts next week. Note: ticket #810.,0,legitimate,clean_communication,LOW
+SCAM_0135,PayPal security alert: Unusual activity detected. Confirm account NOW or it will be locked! Reference ID: #4130.,1,scam,urgency_manipulation,HIGH
+LEGIT_0319,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM.,0,legitimate,clean_communication,LOW
+LEGIT_0428,HR update: Open enrollment for health insurance benefits starts next week. Note: ticket #846.,0,legitimate,clean_communication,LOW
+SCAM_0020,URGENT: Your grandson is in hospital! Send money immediately to help him!,1,scam,crypto_scam,HIGH
+LEGIT_0160,Your flight booking is confirmed. Check-in opens 24 hours prior to departure.,0,legitimate,clean_communication,LOW
+SCAM_0169,Google detected suspicious login! Verify your Google account in 15 minutes! Reference ID: #3634.,1,scam,social_engineering,CRITICAL
+LEGIT_0273,Our annual company hackathon will begin next month. Register your team today.,0,legitimate,clean_communication,LOW
+LEGIT_0425,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+LEGIT_0167,Weekly project status report: All sprint deliverables are on track for Friday.,0,legitimate,clean_communication,LOW
+LEGIT_0189,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+LEGIT_0427,Happy birthday! Enjoy a 15% discount on your next store visit this month. Note: ticket #941.,0,legitimate,clean_communication,LOW
+LEGIT_0292,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins.,0,legitimate,clean_communication,LOW
+LEGIT_0441,Weekly project status report: All sprint deliverables are on track for Friday.,0,legitimate,clean_communication,LOW
+LEGIT_0429,Happy birthday! Enjoy a 15% discount on your next store visit this month.,0,legitimate,clean_communication,LOW
+LEGIT_0111,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+LEGIT_0033,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+SCAM_0467,FLASH SALE: Investment property - 80% off market value. Offer ends in 6 hours!,1,scam,financial_fraud,HIGH
+SCAM_0298,Google detected suspicious login! Verify your Google account in 15 minutes!,1,scam,malicious_url,HIGH
+LEGIT_0195,Weekly project status report: All sprint deliverables are on track for Friday.,0,legitimate,clean_communication,LOW
+SCAM_0047,Final warning: Your subscription ends tonight. Renew NOW or lose access! Reference ID: #4872.,1,scam,urgency_manipulation,HIGH
+SCAM_0067,You have been selected! But you must respond within the next 10 minutes. Reference ID: #1722.,1,scam,crypto_scam,HIGH
+SCAM_0172,Your bank account has been frozen. Call this number NOW to unlock it! Reference ID: #7622.,1,scam,fake_countdown,HIGH
+SCAM_0314,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now!,1,scam,urgency_manipulation,CRITICAL
+LEGIT_0492,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+LEGIT_0016,Happy birthday! Enjoy a 15% discount on your next store visit this month. Note: ticket #348.,0,legitimate,clean_communication,LOW
+LEGIT_0157,HR update: Open enrollment for health insurance benefits starts next week. Note: ticket #355.,0,legitimate,clean_communication,LOW
+SCAM_0106,Mom I'm in trouble! I got arrested and need $500 in gift cards. Don't tell Dad! Reference ID: #2052.,1,scam,phishing_time_pressure,CRITICAL
+LEGIT_0165,HR update: Open enrollment for health insurance benefits starts next week.,0,legitimate,clean_communication,LOW
+SCAM_0320,URGENT: Your account will be suspended in 24 hours. Verify immediately. Reference ID: #5772.,1,scam,financial_fraud,CRITICAL
+LEGIT_0354,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+SCAM_0232,URGENT: Your account will be suspended in 24 hours. Verify immediately.,1,scam,phishing_time_pressure,HIGH
+SCAM_0255,Google detected suspicious login! Verify your Google account in 15 minutes!,1,scam,social_engineering,HIGH
+LEGIT_0142,Weekly project status report: All sprint deliverables are on track for Friday. Note: ticket #220.,0,legitimate,clean_communication,LOW
+LEGIT_0281,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins.,0,legitimate,clean_communication,LOW
+SCAM_0019,Bitcoin will SKYROCKET tomorrow! Insider tip - buy before it's too late!,1,scam,fake_emergency,CRITICAL
+SCAM_0196,IMMEDIATE ACTION REQUIRED: Your payment is overdue. Pay now to avoid legal action!,1,scam,fake_countdown,CRITICAL
+LEGIT_0044,HR update: Open enrollment for health insurance benefits starts next week.,0,legitimate,clean_communication,LOW
+SCAM_0330,LAST CHANCE! Only 3 spots left. Must respond in the next 30 minutes! Reference ID: #9444.,1,scam,social_engineering,CRITICAL
+SCAM_0015,"You've won $1,000,000 in our lottery! But you must claim within 24 hours!",1,scam,crypto_scam,HIGH
+LEGIT_0404,The library book you requested is ready for pickup at the main circulation desk.,0,legitimate,clean_communication,LOW
+SCAM_0205,"Our secret trading algorithm made $10,000 in just 2 hours. Join now! Reference ID: #2747.",1,scam,crypto_scam,HIGH
+LEGIT_0047,HR update: Open enrollment for health insurance benefits starts next week.,0,legitimate,clean_communication,LOW
+LEGIT_0466,The library book you requested is ready for pickup at the main circulation desk.,0,legitimate,clean_communication,LOW
+LEGIT_0235,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+LEGIT_0472,Weekly project status report: All sprint deliverables are on track for Friday.,0,legitimate,clean_communication,LOW
+SCAM_0489,Double your money in 3 days! Risk-free investment opportunity. Act fast!,1,scam,fake_countdown,CRITICAL
+LEGIT_0161,Your electricity bill of .20 is due in 15 days. Autopay is active. Note: ticket #742.,0,legitimate,clean_communication,LOW
+LEGIT_0351,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+SCAM_0440,Netflix subscription will be cancelled. Update payment details immediately! Reference ID: #1987.,1,scam,fake_countdown,HIGH
+LEGIT_0149,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM. Note: ticket #645.",0,legitimate,clean_communication,LOW
+SCAM_0445,Limited time: Act in the next 5 minutes or this deal is gone forever! Reference ID: #4648.,1,scam,phishing_time_pressure,HIGH
+LEGIT_0130,The library book you requested is ready for pickup at the main circulation desk.,0,legitimate,clean_communication,LOW
+SCAM_0133,URGENT: Your account will be suspended in 24 hours. Verify immediately. Reference ID: #3979.,1,scam,malicious_url,CRITICAL
+SCAM_0091,"You've won $1,000,000 in our lottery! But you must claim within 24 hours!",1,scam,malicious_url,HIGH
+LEGIT_0002,HR update: Open enrollment for health insurance benefits starts next week. Note: ticket #257.,0,legitimate,clean_communication,LOW
+LEGIT_0475,HR update: Open enrollment for health insurance benefits starts next week. Note: ticket #187.,0,legitimate,clean_communication,LOW
+LEGIT_0091,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+SCAM_0173,"You've won $1,000,000 in our lottery! But you must claim within 24 hours!",1,scam,crypto_scam,CRITICAL
+SCAM_0215,Bitcoin will SKYROCKET tomorrow! Insider tip - buy before it's too late! Reference ID: #7511.,1,scam,financial_fraud,CRITICAL
+LEGIT_0374,Your flight booking is confirmed. Check-in opens 24 hours prior to departure.,0,legitimate,clean_communication,LOW
+SCAM_0463,You have been selected! But you must respond within the next 10 minutes.,1,scam,financial_fraud,CRITICAL
+SCAM_0005,We can recover your lost crypto funds. Pay a small fee and get it all back! Reference ID: #1106.,1,scam,malicious_url,HIGH
+LEGIT_0382,Conference room B has been reserved for your team from 2 PM to 4 PM. Note: ticket #854.,0,legitimate,clean_communication,LOW
+LEGIT_0207,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+SCAM_0321,ACT NOW! This offer expires in 2 hours. Click here or lose your chance FOREVER!,1,scam,social_engineering,CRITICAL
+LEGIT_0359,Your flight booking is confirmed. Check-in opens 24 hours prior to departure.,0,legitimate,clean_communication,LOW
+LEGIT_0147,Your electricity bill of .20 is due in 15 days. Autopay is active.,0,legitimate,clean_communication,LOW
+SCAM_0341,HURRY! Limited time offer expires at midnight. Don't miss out!,1,scam,crypto_scam,HIGH
+SCAM_0500,You have been selected! But you must respond within the next 10 minutes. Reference ID: #2204.,1,scam,fake_emergency,HIGH
+SCAM_0083,Netflix subscription will be cancelled. Update payment details immediately!,1,scam,social_engineering,HIGH
+SCAM_0185,Netflix subscription will be cancelled. Update payment details immediately! Reference ID: #9903.,1,scam,social_engineering,CRITICAL
+SCAM_0324,LAST CHANCE! Only 3 spots left. Must respond in the next 30 minutes! Reference ID: #5155.,1,scam,crypto_scam,HIGH
+SCAM_0147,The clock is ticking! Your exclusive discount disappears at midnight TONIGHT! Reference ID: #5658.,1,scam,fake_countdown,CRITICAL
+SCAM_0469,"IRS URGENT: You owe $3,400 in back taxes. Pay immediately to avoid arrest warrant!",1,scam,fake_emergency,CRITICAL
+LEGIT_0084,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins.,0,legitimate,clean_communication,LOW
+LEGIT_0333,HR update: Open enrollment for health insurance benefits starts next week. Note: ticket #141.,0,legitimate,clean_communication,LOW
+SCAM_0351,I found your number. I love you and need your help. Please send gift cards. Reference ID: #8292.,1,scam,phishing_time_pressure,HIGH
+LEGIT_0384,Your electricity bill of .20 is due in 15 days. Autopay is active. Note: ticket #916.,0,legitimate,clean_communication,LOW
+SCAM_0141,PayPal security alert: Unusual activity detected. Confirm account NOW or it will be locked!,1,scam,fake_emergency,HIGH
+SCAM_0155,IMMEDIATE ACTION REQUIRED: Your payment is overdue. Pay now to avoid legal action! Reference ID: #5335.,1,scam,financial_fraud,HIGH
+SCAM_0056,"Hi dear, I'm stranded in London after being robbed. Please send $200 via Western Union! Reference ID: #4346.",1,scam,social_engineering,CRITICAL
+SCAM_0424,IMMEDIATE ACTION REQUIRED: Your payment is overdue. Pay now to avoid legal action! Reference ID: #8822.,1,scam,phishing_time_pressure,CRITICAL
+LEGIT_0274,The library book you requested is ready for pickup at the main circulation desk.,0,legitimate,clean_communication,LOW
+LEGIT_0043,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday. Note: ticket #127.,0,legitimate,clean_communication,LOW
+SCAM_0391,Your bank account has been frozen. Call this number NOW to unlock it!,1,scam,social_engineering,CRITICAL
+LEGIT_0486,The library book you requested is ready for pickup at the main circulation desk. Note: ticket #735.,0,legitimate,clean_communication,LOW
+SCAM_0123,Double your money in 3 days! Risk-free investment opportunity. Act fast!,1,scam,fake_emergency,HIGH
+LEGIT_0013,Your flight booking is confirmed. Check-in opens 24 hours prior to departure.,0,legitimate,clean_communication,LOW
+SCAM_0200,Exclusive offer: 200% ROI guaranteed. Only 5 investors accepted. Apply today! Reference ID: #7267.,1,scam,fake_countdown,HIGH
+SCAM_0484,IMMEDIATE ACTION REQUIRED: Your payment is overdue. Pay now to avoid legal action!,1,scam,phishing_time_pressure,CRITICAL
+SCAM_0073,"Hi dear, I'm stranded in London after being robbed. Please send $200 via Western Union! Reference ID: #4878.",1,scam,phishing_time_pressure,HIGH
+LEGIT_0136,The library book you requested is ready for pickup at the main circulation desk. Note: ticket #659.,0,legitimate,clean_communication,LOW
+LEGIT_0095,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM. Note: ticket #310.",0,legitimate,clean_communication,LOW
+LEGIT_0252,HR update: Open enrollment for health insurance benefits starts next week.,0,legitimate,clean_communication,LOW
+LEGIT_0150,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM. Note: ticket #272.,0,legitimate,clean_communication,LOW
+SCAM_0055,WARNING: Your Microsoft account will be closed in 12 hours. Click here to verify! Reference ID: #1651.,1,scam,financial_fraud,HIGH
+SCAM_0482,URGENT: Your account will be suspended in 24 hours. Verify immediately. Reference ID: #5697.,1,scam,fake_emergency,HIGH
+SCAM_0121,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now! Reference ID: #4571.,1,scam,malicious_url,CRITICAL
+SCAM_0475,Your Amazon account has been compromised! Verify your identity in the next hour! Reference ID: #9037.,1,scam,malicious_url,CRITICAL
+SCAM_0302,I found your number. I love you and need your help. Please send gift cards.,1,scam,urgency_manipulation,HIGH
+LEGIT_0100,Please find attached the minutes of our quarterly review meeting.,0,legitimate,clean_communication,LOW
+SCAM_0267,URGENT: Your grandson is in hospital! Send money immediately to help him!,1,scam,phishing_time_pressure,HIGH
+SCAM_0381,Final warning: Your subscription ends tonight. Renew NOW or lose access!,1,scam,urgency_manipulation,CRITICAL
+LEGIT_0452,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM.",0,legitimate,clean_communication,LOW
+SCAM_0431,Social Security Administration: Your SSN has been suspended. Call now! Reference ID: #8714.,1,scam,crypto_scam,HIGH
+SCAM_0315,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now!,1,scam,malicious_url,HIGH
+SCAM_0229,"FREE money! Government stimulus program - claim your $2,500 before deadline. Reference ID: #4394.",1,scam,fake_countdown,HIGH
+SCAM_0364,PayPal security alert: Unusual activity detected. Confirm account NOW or it will be locked! Reference ID: #9740.,1,scam,phishing_time_pressure,HIGH
+LEGIT_0245,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+LEGIT_0415,Your electricity bill of .20 is due in 15 days. Autopay is active. Note: ticket #487.,0,legitimate,clean_communication,LOW
+LEGIT_0471,Weekly project status report: All sprint deliverables are on track for Friday.,0,legitimate,clean_communication,LOW
+SCAM_0344,Social Security Administration: Your SSN has been suspended. Call now! Reference ID: #1530.,1,scam,crypto_scam,HIGH
+LEGIT_0197,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+SCAM_0188,Mom I'm in trouble! I got arrested and need $500 in gift cards. Don't tell Dad! Reference ID: #3492.,1,scam,crypto_scam,CRITICAL
+LEGIT_0073,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM.",0,legitimate,clean_communication,LOW
+LEGIT_0352,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+SCAM_0132,I found your number. I love you and need your help. Please send gift cards. Reference ID: #7209.,1,scam,financial_fraud,CRITICAL
+SCAM_0483,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price! Reference ID: #3937.,1,scam,crypto_scam,HIGH
+SCAM_0100,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now! Reference ID: #6198.,1,scam,malicious_url,CRITICAL
+SCAM_0301,Bitcoin will SKYROCKET tomorrow! Insider tip - buy before it's too late!,1,scam,phishing_time_pressure,HIGH
+SCAM_0186,"You've won $1,000,000 in our lottery! But you must claim within 24 hours! Reference ID: #4912.",1,scam,social_engineering,CRITICAL
+LEGIT_0072,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+LEGIT_0174,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM.,0,legitimate,clean_communication,LOW
+SCAM_0175,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now!,1,scam,fake_emergency,CRITICAL
+LEGIT_0426,Our annual company hackathon will begin next month. Register your team today.,0,legitimate,clean_communication,LOW
+LEGIT_0020,Weekly project status report: All sprint deliverables are on track for Friday.,0,legitimate,clean_communication,LOW
+SCAM_0368,The clock is ticking! Your exclusive discount disappears at midnight TONIGHT! Reference ID: #5949.,1,scam,fake_emergency,CRITICAL
+LEGIT_0188,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+SCAM_0488,Mom I'm in trouble! I got arrested and need $500 in gift cards. Don't tell Dad!,1,scam,malicious_url,HIGH
+LEGIT_0154,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins.,0,legitimate,clean_communication,LOW
+LEGIT_0048,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins. Note: ticket #518.,0,legitimate,clean_communication,LOW
+LEGIT_0203,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+SCAM_0228,URGENT: Your account will be suspended in 24 hours. Verify immediately. Reference ID: #4990.,1,scam,urgency_manipulation,HIGH
+LEGIT_0231,Happy birthday! Enjoy a 15% discount on your next store visit this month. Note: ticket #469.,0,legitimate,clean_communication,LOW
+LEGIT_0244,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday. Note: ticket #730.,0,legitimate,clean_communication,LOW
+SCAM_0352,Your bank account has been frozen. Call this number NOW to unlock it! Reference ID: #9882.,1,scam,social_engineering,CRITICAL
+SCAM_0195,FLASH SALE: Investment property - 80% off market value. Offer ends in 6 hours! Reference ID: #2480.,1,scam,fake_emergency,CRITICAL
+LEGIT_0343,The library book you requested is ready for pickup at the main circulation desk.,0,legitimate,clean_communication,LOW
+LEGIT_0226,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+LEGIT_0098,Your monthly bank statement is now available for download in your online portal. Note: ticket #649.,0,legitimate,clean_communication,LOW
+SCAM_0037,We can recover your lost crypto funds. Pay a small fee and get it all back!,1,scam,urgency_manipulation,HIGH
+SCAM_0398,Your bank account has been frozen. Call this number NOW to unlock it!,1,scam,crypto_scam,HIGH
+SCAM_0415,You have been selected! But you must respond within the next 10 minutes. Reference ID: #1611.,1,scam,financial_fraud,HIGH
+SCAM_0429,WARNING: Your Microsoft account will be closed in 12 hours. Click here to verify!,1,scam,fake_emergency,HIGH
+SCAM_0266,Apple ID suspended: Verify your information within 24 hours or lose your account!,1,scam,social_engineering,CRITICAL
+SCAM_0303,I found your number. I love you and need your help. Please send gift cards. Reference ID: #8355.,1,scam,fake_emergency,HIGH
+LEGIT_0010,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM.",0,legitimate,clean_communication,LOW
+LEGIT_0490,Please find attached the minutes of our quarterly review meeting.,0,legitimate,clean_communication,LOW
+SCAM_0027,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price! Reference ID: #5889.,1,scam,fake_countdown,HIGH
+LEGIT_0239,Please find attached the minutes of our quarterly review meeting.,0,legitimate,clean_communication,LOW
+SCAM_0144,IMMEDIATE ACTION REQUIRED: Your payment is overdue. Pay now to avoid legal action!,1,scam,financial_fraud,CRITICAL
+LEGIT_0366,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+SCAM_0328,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now! Reference ID: #8498.,1,scam,fake_countdown,HIGH
+LEGIT_0177,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins.,0,legitimate,clean_communication,LOW
+LEGIT_0394,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM.,0,legitimate,clean_communication,LOW
+LEGIT_0115,Weekly project status report: All sprint deliverables are on track for Friday. Note: ticket #810.,0,legitimate,clean_communication,LOW
+SCAM_0059,"You've won $1,000,000 in our lottery! But you must claim within 24 hours!",1,scam,fake_countdown,HIGH
+SCAM_0247,You have been selected! But you must respond within the next 10 minutes.,1,scam,crypto_scam,CRITICAL
+LEGIT_0030,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins.,0,legitimate,clean_communication,LOW
+LEGIT_0495,Happy birthday! Enjoy a 15% discount on your next store visit this month. Note: ticket #926.,0,legitimate,clean_communication,LOW
+LEGIT_0414,Our annual company hackathon will begin next month. Register your team today.,0,legitimate,clean_communication,LOW
+LEGIT_0288,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday. Note: ticket #283.,0,legitimate,clean_communication,LOW
+LEGIT_0334,Please find attached the minutes of our quarterly review meeting. Note: ticket #435.,0,legitimate,clean_communication,LOW
+LEGIT_0229,Please find attached the minutes of our quarterly review meeting.,0,legitimate,clean_communication,LOW
+LEGIT_0172,Conference room B has been reserved for your team from 2 PM to 4 PM.,0,legitimate,clean_communication,LOW
+SCAM_0268,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price!,1,scam,social_engineering,HIGH
+LEGIT_0282,The library book you requested is ready for pickup at the main circulation desk. Note: ticket #858.,0,legitimate,clean_communication,LOW
+SCAM_0333,PayPal security alert: Unusual activity detected. Confirm account NOW or it will be locked! Reference ID: #8159.,1,scam,fake_countdown,CRITICAL
+LEGIT_0156,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM. Note: ticket #229.,0,legitimate,clean_communication,LOW
+SCAM_0284,Social Security Administration: Your SSN has been suspended. Call now!,1,scam,fake_emergency,HIGH
+SCAM_0345,I found your number. I love you and need your help. Please send gift cards.,1,scam,social_engineering,HIGH
+SCAM_0066,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price!,1,scam,malicious_url,HIGH
+SCAM_0494,"IRS URGENT: You owe $3,400 in back taxes. Pay immediately to avoid arrest warrant! Reference ID: #7375.",1,scam,phishing_time_pressure,CRITICAL
+SCAM_0111,The clock is ticking! Your exclusive discount disappears at midnight TONIGHT!,1,scam,financial_fraud,CRITICAL
+LEGIT_0201,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+SCAM_0306,Mom I'm in trouble! I got arrested and need $500 in gift cards. Don't tell Dad! Reference ID: #4271.,1,scam,crypto_scam,HIGH
+SCAM_0290,Social Security Administration: Your SSN has been suspended. Call now! Reference ID: #7347.,1,scam,social_engineering,CRITICAL
+LEGIT_0460,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM.",0,legitimate,clean_communication,LOW
+LEGIT_0361,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM.,0,legitimate,clean_communication,LOW
+LEGIT_0324,Please find attached the minutes of our quarterly review meeting.,0,legitimate,clean_communication,LOW
+LEGIT_0075,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+SCAM_0384,This is the FBI. You are under investigation. Cooperate now or face consequences. Reference ID: #4189.,1,scam,urgency_manipulation,CRITICAL
+LEGIT_0179,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM.",0,legitimate,clean_communication,LOW
+LEGIT_0024,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM. Note: ticket #838.,0,legitimate,clean_communication,LOW
+SCAM_0008,Netflix subscription will be cancelled. Update payment details immediately! Reference ID: #1711.,1,scam,social_engineering,CRITICAL
+SCAM_0105,Your bank account has been frozen. Call this number NOW to unlock it!,1,scam,fake_countdown,HIGH
+LEGIT_0099,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+LEGIT_0369,Please find attached the minutes of our quarterly review meeting. Note: ticket #921.,0,legitimate,clean_communication,LOW
+LEGIT_0139,Please find attached the minutes of our quarterly review meeting.,0,legitimate,clean_communication,LOW
+LEGIT_0034,Your electricity bill of .20 is due in 15 days. Autopay is active. Note: ticket #305.,0,legitimate,clean_communication,LOW
+LEGIT_0337,Conference room B has been reserved for your team from 2 PM to 4 PM.,0,legitimate,clean_communication,LOW
+SCAM_0310,You have been selected! But you must respond within the next 10 minutes. Reference ID: #6727.,1,scam,financial_fraud,HIGH
+SCAM_0478,ACT NOW! This offer expires in 2 hours. Click here or lose your chance FOREVER!,1,scam,crypto_scam,HIGH
+SCAM_0224,PayPal security alert: Unusual activity detected. Confirm account NOW or it will be locked! Reference ID: #4559.,1,scam,urgency_manipulation,CRITICAL
+LEGIT_0318,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday. Note: ticket #342.,0,legitimate,clean_communication,LOW
+SCAM_0471,"FREE money! Government stimulus program - claim your $2,500 before deadline.",1,scam,social_engineering,HIGH
+SCAM_0358,Limited time: Act in the next 5 minutes or this deal is gone forever! Reference ID: #2208.,1,scam,crypto_scam,HIGH
+SCAM_0386,PayPal security alert: Unusual activity detected. Confirm account NOW or it will be locked!,1,scam,fake_countdown,HIGH
+SCAM_0434,Bitcoin will SKYROCKET tomorrow! Insider tip - buy before it's too late!,1,scam,phishing_time_pressure,CRITICAL
+SCAM_0282,PayPal security alert: Unusual activity detected. Confirm account NOW or it will be locked!,1,scam,urgency_manipulation,HIGH
+LEGIT_0159,Please find attached the minutes of our quarterly review meeting. Note: ticket #792.,0,legitimate,clean_communication,LOW
+LEGIT_0396,Please find attached the minutes of our quarterly review meeting. Note: ticket #120.,0,legitimate,clean_communication,LOW
+LEGIT_0230,Your electricity bill of .20 is due in 15 days. Autopay is active.,0,legitimate,clean_communication,LOW
+SCAM_0313,URGENT: Your account will be suspended in 24 hours. Verify immediately. Reference ID: #6493.,1,scam,social_engineering,HIGH
+LEGIT_0123,Conference room B has been reserved for your team from 2 PM to 4 PM. Note: ticket #606.,0,legitimate,clean_communication,LOW
+SCAM_0259,You have been selected! But you must respond within the next 10 minutes.,1,scam,urgency_manipulation,HIGH
+SCAM_0230,We can recover your lost crypto funds. Pay a small fee and get it all back! Reference ID: #1046.,1,scam,social_engineering,CRITICAL
+SCAM_0009,WARNING: Your Microsoft account will be closed in 12 hours. Click here to verify!,1,scam,crypto_scam,CRITICAL
+LEGIT_0321,HR update: Open enrollment for health insurance benefits starts next week. Note: ticket #434.,0,legitimate,clean_communication,LOW
+LEGIT_0116,Happy birthday! Enjoy a 15% discount on your next store visit this month. Note: ticket #277.,0,legitimate,clean_communication,LOW
+LEGIT_0387,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+LEGIT_0339,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+SCAM_0136,FLASH SALE: Investment property - 80% off market value. Offer ends in 6 hours!,1,scam,crypto_scam,HIGH
+LEGIT_0383,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM. Note: ticket #324.",0,legitimate,clean_communication,LOW
+SCAM_0010,Social Security Administration: Your SSN has been suspended. Call now! Reference ID: #1750.,1,scam,financial_fraud,HIGH
+LEGIT_0199,Your monthly bank statement is now available for download in your online portal. Note: ticket #532.,0,legitimate,clean_communication,LOW
+LEGIT_0286,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins.,0,legitimate,clean_communication,LOW
+LEGIT_0392,Please find attached the minutes of our quarterly review meeting. Note: ticket #929.,0,legitimate,clean_communication,LOW
+LEGIT_0442,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins.,0,legitimate,clean_communication,LOW
+LEGIT_0026,Your electricity bill of .20 is due in 15 days. Autopay is active.,0,legitimate,clean_communication,LOW
+SCAM_0420,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now!,1,scam,malicious_url,HIGH
+LEGIT_0168,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM. Note: ticket #967.",0,legitimate,clean_communication,LOW
+LEGIT_0420,Your electricity bill of .20 is due in 15 days. Autopay is active.,0,legitimate,clean_communication,LOW
+SCAM_0212,Exclusive offer: 200% ROI guaranteed. Only 5 investors accepted. Apply today!,1,scam,financial_fraud,CRITICAL
+LEGIT_0194,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+SCAM_0231,Bitcoin will SKYROCKET tomorrow! Insider tip - buy before it's too late! Reference ID: #3858.,1,scam,phishing_time_pressure,HIGH
+LEGIT_0163,Your monthly bank statement is now available for download in your online portal. Note: ticket #887.,0,legitimate,clean_communication,LOW
+SCAM_0227,WARNING: Your Microsoft account will be closed in 12 hours. Click here to verify!,1,scam,malicious_url,HIGH
+SCAM_0220,"Hi dear, I'm stranded in London after being robbed. Please send $200 via Western Union!",1,scam,fake_countdown,HIGH
+LEGIT_0483,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM.,0,legitimate,clean_communication,LOW
+LEGIT_0469,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+SCAM_0167,Limited time: Act in the next 5 minutes or this deal is gone forever! Reference ID: #3973.,1,scam,malicious_url,CRITICAL
+LEGIT_0449,HR update: Open enrollment for health insurance benefits starts next week.,0,legitimate,clean_communication,LOW
+SCAM_0396,Limited time: Act in the next 5 minutes or this deal is gone forever!,1,scam,crypto_scam,HIGH
+SCAM_0029,Your bank account has been frozen. Call this number NOW to unlock it!,1,scam,malicious_url,CRITICAL
+SCAM_0292,Google detected suspicious login! Verify your Google account in 15 minutes! Reference ID: #7333.,1,scam,fake_countdown,CRITICAL
+SCAM_0093,Apple ID suspended: Verify your information within 24 hours or lose your account!,1,scam,social_engineering,HIGH
+LEGIT_0206,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins.,0,legitimate,clean_communication,LOW
+LEGIT_0267,The library book you requested is ready for pickup at the main circulation desk.,0,legitimate,clean_communication,LOW
+SCAM_0265,"FREE money! Government stimulus program - claim your $2,500 before deadline. Reference ID: #3248.",1,scam,fake_emergency,CRITICAL
+SCAM_0168,The clock is ticking! Your exclusive discount disappears at midnight TONIGHT!,1,scam,fake_countdown,CRITICAL
+LEGIT_0476,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+SCAM_0359,Your bank account has been frozen. Call this number NOW to unlock it!,1,scam,fake_countdown,CRITICAL
+LEGIT_0065,The library book you requested is ready for pickup at the main circulation desk.,0,legitimate,clean_communication,LOW
+LEGIT_0101,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM. Note: ticket #601.,0,legitimate,clean_communication,LOW
+SCAM_0486,This is the FBI. You are under investigation. Cooperate now or face consequences. Reference ID: #4700.,1,scam,malicious_url,CRITICAL
+SCAM_0182,HURRY! Limited time offer expires at midnight. Don't miss out! Reference ID: #7798.,1,scam,fake_emergency,CRITICAL
+SCAM_0457,Final warning: Your subscription ends tonight. Renew NOW or lose access! Reference ID: #7244.,1,scam,social_engineering,CRITICAL
+LEGIT_0109,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+LEGIT_0001,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM.,0,legitimate,clean_communication,LOW
+LEGIT_0446,HR update: Open enrollment for health insurance benefits starts next week.,0,legitimate,clean_communication,LOW
+SCAM_0248,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now! Reference ID: #6400.,1,scam,urgency_manipulation,HIGH
+SCAM_0032,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now! Reference ID: #3705.,1,scam,malicious_url,CRITICAL
+LEGIT_0459,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days.,0,legitimate,clean_communication,LOW
+SCAM_0127,Social Security Administration: Your SSN has been suspended. Call now! Reference ID: #6590.,1,scam,fake_countdown,HIGH
+LEGIT_0151,Our annual company hackathon will begin next month. Register your team today. Note: ticket #399.,0,legitimate,clean_communication,LOW
+SCAM_0407,Bitcoin will SKYROCKET tomorrow! Insider tip - buy before it's too late!,1,scam,fake_emergency,HIGH
+LEGIT_0018,Your flight booking is confirmed. Check-in opens 24 hours prior to departure.,0,legitimate,clean_communication,LOW
+SCAM_0476,Double your money in 3 days! Risk-free investment opportunity. Act fast!,1,scam,social_engineering,CRITICAL
+LEGIT_0454,HR update: Open enrollment for health insurance benefits starts next week. Note: ticket #847.,0,legitimate,clean_communication,LOW
+SCAM_0378,The clock is ticking! Your exclusive discount disappears at midnight TONIGHT!,1,scam,malicious_url,CRITICAL
+SCAM_0281,I found your number. I love you and need your help. Please send gift cards.,1,scam,fake_countdown,CRITICAL
+SCAM_0204,"IRS URGENT: You owe $3,400 in back taxes. Pay immediately to avoid arrest warrant! Reference ID: #8484.",1,scam,crypto_scam,CRITICAL
+LEGIT_0222,HR update: Open enrollment for health insurance benefits starts next week.,0,legitimate,clean_communication,LOW
+SCAM_0370,Final warning: Your subscription ends tonight. Renew NOW or lose access!,1,scam,phishing_time_pressure,CRITICAL
+SCAM_0052,Final warning: Your subscription ends tonight. Renew NOW or lose access!,1,scam,social_engineering,CRITICAL
+SCAM_0468,Your bank account has been frozen. Call this number NOW to unlock it!,1,scam,fake_emergency,CRITICAL
+SCAM_0034,"IRS URGENT: You owe $3,400 in back taxes. Pay immediately to avoid arrest warrant! Reference ID: #7118.",1,scam,crypto_scam,CRITICAL
+SCAM_0256,This is the FBI. You are under investigation. Cooperate now or face consequences.,1,scam,fake_countdown,HIGH
+SCAM_0060,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price!,1,scam,fake_emergency,CRITICAL
+LEGIT_0358,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM.",0,legitimate,clean_communication,LOW
+SCAM_0206,Mom I'm in trouble! I got arrested and need $500 in gift cards. Don't tell Dad! Reference ID: #5837.,1,scam,social_engineering,HIGH
+LEGIT_0353,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins. Note: ticket #439.,0,legitimate,clean_communication,LOW
+SCAM_0198,Apple ID suspended: Verify your information within 24 hours or lose your account!,1,scam,social_engineering,HIGH
+SCAM_0178,WARNING: Your Microsoft account will be closed in 12 hours. Click here to verify! Reference ID: #3522.,1,scam,malicious_url,CRITICAL
+SCAM_0030,"IRS URGENT: You owe $3,400 in back taxes. Pay immediately to avoid arrest warrant!",1,scam,financial_fraud,HIGH
+LEGIT_0083,The library book you requested is ready for pickup at the main circulation desk. Note: ticket #123.,0,legitimate,clean_communication,LOW
+LEGIT_0037,HR update: Open enrollment for health insurance benefits starts next week. Note: ticket #602.,0,legitimate,clean_communication,LOW
+LEGIT_0372,Conference room B has been reserved for your team from 2 PM to 4 PM. Note: ticket #452.,0,legitimate,clean_communication,LOW
+LEGIT_0300,Please find attached the minutes of our quarterly review meeting.,0,legitimate,clean_communication,LOW
+SCAM_0139,"IRS URGENT: You owe $3,400 in back taxes. Pay immediately to avoid arrest warrant!",1,scam,social_engineering,CRITICAL
+SCAM_0414,"Our secret trading algorithm made $10,000 in just 2 hours. Join now!",1,scam,fake_emergency,HIGH
+LEGIT_0019,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM.,0,legitimate,clean_communication,LOW
+LEGIT_0227,Happy birthday! Enjoy a 15% discount on your next store visit this month. Note: ticket #345.,0,legitimate,clean_communication,LOW
+LEGIT_0437,Conference room B has been reserved for your team from 2 PM to 4 PM.,0,legitimate,clean_communication,LOW
+SCAM_0068,Google detected suspicious login! Verify your Google account in 15 minutes! Reference ID: #5291.,1,scam,phishing_time_pressure,HIGH
+SCAM_0163,This is the FBI. You are under investigation. Cooperate now or face consequences. Reference ID: #9090.,1,scam,fake_emergency,CRITICAL
+LEGIT_0311,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM. Note: ticket #965.",0,legitimate,clean_communication,LOW
+LEGIT_0028,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM. Note: ticket #440.",0,legitimate,clean_communication,LOW
+SCAM_0058,"You've won $1,000,000 in our lottery! But you must claim within 24 hours! Reference ID: #2188.",1,scam,social_engineering,HIGH
+LEGIT_0341,HR update: Open enrollment for health insurance benefits starts next week. Note: ticket #196.,0,legitimate,clean_communication,LOW
+SCAM_0383,Your Amazon account has been compromised! Verify your identity in the next hour! Reference ID: #6995.,1,scam,social_engineering,HIGH
+LEGIT_0479,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM. Note: ticket #938.",0,legitimate,clean_communication,LOW
+LEGIT_0029,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins. Note: ticket #923.,0,legitimate,clean_communication,LOW
+LEGIT_0278,Please find attached the minutes of our quarterly review meeting.,0,legitimate,clean_communication,LOW
+SCAM_0497,Google detected suspicious login! Verify your Google account in 15 minutes! Reference ID: #6347.,1,scam,crypto_scam,HIGH
+LEGIT_0259,HR update: Open enrollment for health insurance benefits starts next week.,0,legitimate,clean_communication,LOW
+SCAM_0417,The clock is ticking! Your exclusive discount disappears at midnight TONIGHT! Reference ID: #5742.,1,scam,phishing_time_pressure,HIGH
+LEGIT_0344,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM.",0,legitimate,clean_communication,LOW
+SCAM_0217,"You've won $1,000,000 in our lottery! But you must claim within 24 hours! Reference ID: #5295.",1,scam,social_engineering,CRITICAL
+SCAM_0453,Final warning: Your subscription ends tonight. Renew NOW or lose access! Reference ID: #5739.,1,scam,phishing_time_pressure,HIGH
+SCAM_0193,You have been selected! But you must respond within the next 10 minutes. Reference ID: #9742.,1,scam,social_engineering,CRITICAL
+SCAM_0092,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price! Reference ID: #3780.,1,scam,malicious_url,HIGH
+LEGIT_0162,Your flight booking is confirmed. Check-in opens 24 hours prior to departure.,0,legitimate,clean_communication,LOW
+LEGIT_0120,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM. Note: ticket #109.",0,legitimate,clean_communication,LOW
+SCAM_0427,Your Amazon account has been compromised! Verify your identity in the next hour! Reference ID: #2017.,1,scam,social_engineering,HIGH
+LEGIT_0247,Happy birthday! Enjoy a 15% discount on your next store visit this month.,0,legitimate,clean_communication,LOW
+LEGIT_0445,Thank you for your purchase at Amazon. Your order has shipped and will arrive in 2 days. Note: ticket #264.,0,legitimate,clean_communication,LOW
+SCAM_0329,Apple ID suspended: Verify your information within 24 hours or lose your account!,1,scam,financial_fraud,HIGH
+LEGIT_0346,Please find attached the minutes of our quarterly review meeting. Note: ticket #481.,0,legitimate,clean_communication,LOW
+LEGIT_0293,Your monthly bank statement is now available for download in your online portal. Note: ticket #108.,0,legitimate,clean_communication,LOW
+SCAM_0454,Your bank account has been frozen. Call this number NOW to unlock it!,1,scam,social_engineering,HIGH
+LEGIT_0262,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins. Note: ticket #270.,0,legitimate,clean_communication,LOW
+SCAM_0308,Limited time: Act in the next 5 minutes or this deal is gone forever!,1,scam,fake_countdown,HIGH
+SCAM_0138,You have been selected! But you must respond within the next 10 minutes.,1,scam,fake_emergency,HIGH
+SCAM_0234,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now! Reference ID: #2041.,1,scam,crypto_scam,CRITICAL
+LEGIT_0390,HR update: Open enrollment for health insurance benefits starts next week. Note: ticket #681.,0,legitimate,clean_communication,LOW
+SCAM_0101,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price! Reference ID: #9976.,1,scam,crypto_scam,CRITICAL
+LEGIT_0202,Your monthly bank statement is now available for download in your online portal. Note: ticket #204.,0,legitimate,clean_communication,LOW
+LEGIT_0213,Software patch maintenance will occur this Sunday at 2 AM. Downtime is 30 mins.,0,legitimate,clean_communication,LOW
+LEGIT_0379,Our annual company hackathon will begin next month. Register your team today. Note: ticket #338.,0,legitimate,clean_communication,LOW
+LEGIT_0004,Our annual company hackathon will begin next month. Register your team today.,0,legitimate,clean_communication,LOW
+LEGIT_0364,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM.,0,legitimate,clean_communication,LOW
+SCAM_0288,Google detected suspicious login! Verify your Google account in 15 minutes! Reference ID: #3827.,1,scam,fake_countdown,HIGH
+SCAM_0319,"Hi dear, I'm stranded in London after being robbed. Please send $200 via Western Union!",1,scam,malicious_url,CRITICAL
+SCAM_0311,"Hi dear, I'm stranded in London after being robbed. Please send $200 via Western Union!",1,scam,urgency_manipulation,CRITICAL
+LEGIT_0313,Happy birthday! Enjoy a 15% discount on your next store visit this month.,0,legitimate,clean_communication,LOW
+LEGIT_0338,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM.,0,legitimate,clean_communication,LOW
+SCAM_0346,Guaranteed 500% returns in just 48 hours! Our crypto bot never fails. Invest now!,1,scam,social_engineering,CRITICAL
+SCAM_0021,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price!,1,scam,malicious_url,HIGH
+SCAM_0382,Apple ID suspended: Verify your information within 24 hours or lose your account! Reference ID: #8060.,1,scam,urgency_manipulation,HIGH
+LEGIT_0419,Your flight booking is confirmed. Check-in opens 24 hours prior to departure. Note: ticket #889.,0,legitimate,clean_communication,LOW
+SCAM_0276,HURRY! Limited time offer expires at midnight. Don't miss out! Reference ID: #4176.,1,scam,fake_countdown,CRITICAL
+LEGIT_0443,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM.",0,legitimate,clean_communication,LOW
+SCAM_0487,You have been selected! But you must respond within the next 10 minutes.,1,scam,urgency_manipulation,CRITICAL
+LEGIT_0264,The library book you requested is ready for pickup at the main circulation desk. Note: ticket #850.,0,legitimate,clean_communication,LOW
+SCAM_0051,Bitcoin will SKYROCKET tomorrow! Insider tip - buy before it's too late!,1,scam,financial_fraud,HIGH
+SCAM_0244,This is the FBI. You are under investigation. Cooperate now or face consequences. Reference ID: #6120.,1,scam,crypto_scam,CRITICAL
+LEGIT_0208,Conference room B has been reserved for your team from 2 PM to 4 PM. Note: ticket #724.,0,legitimate,clean_communication,LOW
+SCAM_0340,Netflix subscription will be cancelled. Update payment details immediately!,1,scam,crypto_scam,HIGH
+LEGIT_0401,The library book you requested is ready for pickup at the main circulation desk. Note: ticket #431.,0,legitimate,clean_communication,LOW
+LEGIT_0411,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+SCAM_0406,WARNING: Your Microsoft account will be closed in 12 hours. Click here to verify! Reference ID: #7464.,1,scam,crypto_scam,CRITICAL
+SCAM_0040,"FREE money! Government stimulus program - claim your $2,500 before deadline. Reference ID: #8744.",1,scam,phishing_time_pressure,HIGH
+SCAM_0412,⏰ COUNTDOWN: Only 2 hours left to claim your prize! Timer is ticking! Reference ID: #3252.,1,scam,fake_countdown,HIGH
+LEGIT_0211,HR update: Open enrollment for health insurance benefits starts next week.,0,legitimate,clean_communication,LOW
+LEGIT_0198,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM. Note: ticket #936.",0,legitimate,clean_communication,LOW
+LEGIT_0468,Your monthly bank statement is now available for download in your online portal. Note: ticket #496.,0,legitimate,clean_communication,LOW
+LEGIT_0134,Conference room B has been reserved for your team from 2 PM to 4 PM. Note: ticket #475.,0,legitimate,clean_communication,LOW
+SCAM_0148,⏰ COUNTDOWN: Only 2 hours left to claim your prize! Timer is ticking!,1,scam,malicious_url,HIGH
+SCAM_0413,Double your money in 3 days! Risk-free investment opportunity. Act fast! Reference ID: #8793.,1,scam,crypto_scam,CRITICAL
+SCAM_0283,"IRS URGENT: You owe $3,400 in back taxes. Pay immediately to avoid arrest warrant!",1,scam,malicious_url,HIGH
+SCAM_0177,"IRS URGENT: You owe $3,400 in back taxes. Pay immediately to avoid arrest warrant! Reference ID: #2527.",1,scam,urgency_manipulation,HIGH
+SCAM_0039,FLASH DEAL: 95% off - expires in 00:47:23! Buy now or pay full price!,1,scam,financial_fraud,CRITICAL
+SCAM_0485,Netflix subscription will be cancelled. Update payment details immediately! Reference ID: #2294.,1,scam,fake_emergency,CRITICAL
+LEGIT_0124,Your flight booking is confirmed. Check-in opens 24 hours prior to departure. Note: ticket #525.,0,legitimate,clean_communication,LOW
+LEGIT_0086,Happy birthday! Enjoy a 15% discount on your next store visit this month. Note: ticket #349.,0,legitimate,clean_communication,LOW
+SCAM_0498,PayPal security alert: Unusual activity detected. Confirm account NOW or it will be locked!,1,scam,malicious_url,CRITICAL
+LEGIT_0171,Our annual company hackathon will begin next month. Register your team today. Note: ticket #914.,0,legitimate,clean_communication,LOW
+SCAM_0393,URGENT: Your account will be suspended in 24 hours. Verify immediately.,1,scam,social_engineering,HIGH
+SCAM_0271,WARNING: Your Microsoft account will be closed in 12 hours. Click here to verify!,1,scam,crypto_scam,CRITICAL
+SCAM_0421,Google detected suspicious login! Verify your Google account in 15 minutes! Reference ID: #5215.,1,scam,phishing_time_pressure,HIGH
+LEGIT_0399,The library book you requested is ready for pickup at the main circulation desk.,0,legitimate,clean_communication,LOW
+SCAM_0353,"IRS URGENT: You owe $3,400 in back taxes. Pay immediately to avoid arrest warrant! Reference ID: #3852.",1,scam,phishing_time_pressure,CRITICAL
+LEGIT_0402,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM.",0,legitimate,clean_communication,LOW
+LEGIT_0049,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+LEGIT_0389,Our annual company hackathon will begin next month. Register your team today. Note: ticket #128.,0,legitimate,clean_communication,LOW
+SCAM_0293,Your Amazon account has been compromised! Verify your identity in the next hour!,1,scam,phishing_time_pressure,HIGH
+LEGIT_0305,Invitation: Tech talk on Artificial Intelligence and Cybersecurity next Thursday.,0,legitimate,clean_communication,LOW
+SCAM_0104,HURRY! Limited time offer expires at midnight. Don't miss out!,1,scam,fake_emergency,CRITICAL
+LEGIT_0299,Happy birthday! Enjoy a 15% discount on your next store visit this month. Note: ticket #915.,0,legitimate,clean_communication,LOW
+LEGIT_0077,Reminder: Dentist appointment scheduled for next Tuesday at 3:30 PM.,0,legitimate,clean_communication,LOW
+SCAM_0109,Mom I'm in trouble! I got arrested and need $500 in gift cards. Don't tell Dad!,1,scam,malicious_url,CRITICAL
+LEGIT_0448,Your electricity bill of .20 is due in 15 days. Autopay is active. Note: ticket #594.,0,legitimate,clean_communication,LOW
+SCAM_0103,PayPal security alert: Unusual activity detected. Confirm account NOW or it will be locked! Reference ID: #5499.,1,scam,malicious_url,CRITICAL
+LEGIT_0463,Your monthly bank statement is now available for download in your online portal.,0,legitimate,clean_communication,LOW
+LEGIT_0488,The library book you requested is ready for pickup at the main circulation desk.,0,legitimate,clean_communication,LOW
+LEGIT_0277,"Hi team, just a reminder about our project sync tomorrow at 10:00 AM. Note: ticket #112.",0,legitimate,clean_communication,LOW
+LEGIT_0097,The library book you requested is ready for pickup at the main circulation desk.,0,legitimate,clean_communication,LOW
+LEGIT_0103,Your electricity bill of .20 is due in 15 days. Autopay is active.,0,legitimate,clean_communication,LOW
+LEGIT_0081,HR update: Open enrollment for health insurance benefits starts next week.,0,legitimate,clean_communication,LOW
+SCAM_0152,FLASH SALE: Investment property - 80% off market value. Offer ends in 6 hours! Reference ID: #7818.,1,scam,fake_countdown,HIGH
+SCAM_0154,"IRS URGENT: You owe $3,400 in back taxes. Pay immediately to avoid arrest warrant!",1,scam,crypto_scam,HIGH
+SCAM_0425,FLASH SALE: Investment property - 80% off market value. Offer ends in 6 hours!,1,scam,urgency_manipulation,HIGH
+SCAM_0116,Mom I'm in trouble! I got arrested and need $500 in gift cards. Don't tell Dad!,1,scam,social_engineering,CRITICAL
+SCAM_0430,We can recover your lost crypto funds. Pay a small fee and get it all back!,1,scam,phishing_time_pressure,CRITICAL
+LEGIT_0301,Happy birthday! Enjoy a 15% discount on your next store visit this month.,0,legitimate,clean_communication,LOW
+LEGIT_0036,Your flight booking is confirmed. Check-in opens 24 hours prior to departure. Note: ticket #398.,0,legitimate,clean_communication,LOW
